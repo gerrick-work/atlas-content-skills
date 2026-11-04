@@ -5,12 +5,12 @@ description: The single entry point for all Atlas DSF and Atlas Origins content 
 
 # Atlas content (router)
 
-All Atlas content skills live in one GitHub repo: **REPO_SLUG** (private). This skill only fetches it and points to the right file; the instructions themselves are in the repo, so an update pushed there reaches every chat.
+All Atlas content skills live in one GitHub repo: **gerrick-work/atlas-content-skills** (private). This skill only fetches it and points to the right file; the instructions themselves are in the repo, so an update pushed there reaches every chat.
 
 ## 1. Pull the repo (every run)
 
-1. If the session doesn't have the repo yet, add it with the `add_repo` tool (owner and repo from REPO_SLUG, read access), then clone it:
-   `git clone https://github.com/REPO_SLUG.git /home/claude/atlas-content-skills`
+1. If the session doesn't have the repo yet, add it with the `add_repo` tool (owner and repo from gerrick-work/atlas-content-skills, read access), then clone it:
+   `git clone https://github.com/gerrick-work/atlas-content-skills.git /home/claude/atlas-content-skills`
    If it is already there: `git -C /home/claude/atlas-content-skills pull`.
 2. If GitHub can't be reached, say so in one line and use the newest copy in the "ads week 1 NOV" Project (`atlas-content-skills/` docs) instead.
 
