@@ -28,4 +28,4 @@ Each: goal, KPI, deliverables, dates, read date, scale or kill rule, status. Sta
 - Deliverables: shop-linked TikTok renamed to Atlas Origins; 1 post a day (decided 4 Nov 2026); creator outreach reopens once 7 posts are up.
 - Read: 18 Nov (2 weeks of posting).
 - Rule: if posting holds 7/7 days and orders don't move by 25 Nov, the constraint is the offer or the shop page, not content; re-diagnose.
-- Status 4 Nov 2026: cadence decided; rename and first posts not done; no TikTok posting skill in the repo yet.
+- Status 4 Nov 2026: cadence decided; rename and first posts not done; no TikTok posting skill in the repo yet. Decision card on the CEO Desk (task 531): how posts go up (A: Claude uploads via TikTok Studio after his tap, recommended; B: he posts from his phone), and whether the rename is done.

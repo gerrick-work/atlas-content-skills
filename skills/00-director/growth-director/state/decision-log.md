@@ -2,6 +2,7 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 4 Nov 2026: two lanes. Operations stays with Gerrick; marketing is owned by the Growth Director, which brings him only approvals. Director asks go onto the Odoo CEO Desk (tag "From: Growth Director") so they show on the CEO dashboard. Gerrick.
 - 4 Nov 2026: Growth Director built as a skill in this repo, run each morning and on demand, instead of always-on Hermes/Paperclip agents. Gerrick. Prove the thinking first; automate execution later.
 - 4 Nov 2026: one GitHub repo (gerrick-work/atlas-content-skills) holds every content skill; old separate skills to be retired. Gerrick.
 - 4 Nov 2026: Atlas DSF off TikTok; shop-linked TikTok becomes Atlas Origins; Noted gets its own TikTok; 1 post a day per account. Gerrick.
