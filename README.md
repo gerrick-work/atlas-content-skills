@@ -7,13 +7,15 @@ Claude pulls this repo at the start of any content task (via the `atlas-content`
 ## Start here
 
 1. Read `context/atlas-brand-context.md` (the rules every skill assumes).
-2. Find the job in the table below and open that skill.
-3. Follow it to the end; it hands off to the next skill.
+2. Asked "what's our next move?" or anything about what to do next: open `skills/00-director/growth-director` first. It decides what to build and hands the work to the skills below.
+3. For a specific job, find it in the table below and open that skill.
+4. Follow it to the end; it hands off to the next skill.
 
 ## The sequence
 
 | Step | Skill | Use it for |
 |---|---|---|
+| **00 Director** | `skills/00-director/growth-director` | Decides what to build next and why; keeps the 7/30/90-day plan and state files; routes work to every skill below |
 | **01 Research** | `skills/01-research/atlas-growth-loop` | Weekly loop: hunt cross-industry winners, shortlist, produce, measure, promote to ads |
 | | `skills/01-research/stash` | Save a reel, video, link or idea; turn it into a brief |
 | **02 Copy** | `skills/02-copy/atlas-script-lab` | Hook, angle, body and CTA for any piece (load before writing anything) |
@@ -36,6 +38,7 @@ Claude pulls this repo at the start of any content task (via the `atlas-content`
 
 | "I want to..." | Path |
 |---|---|
+| What's our next move? / morning run / weekly plan | growth-director |
 | Copy the structure of an ad I saw | atlas-remix, which runs atlas-script-lab, then ad-library or a carousel skill, then video-direction for video |
 | Make more of a winning ad | atlas-remix (variant plan: hooks first, then format, then colour) |
 | Make this week's posts | atlas-content-engine or atlas-growth-loop, then the static or video skill, then ship-content |
