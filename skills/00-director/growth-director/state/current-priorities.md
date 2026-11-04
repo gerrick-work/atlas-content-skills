@@ -23,6 +23,6 @@ Atlas Origins sells every day on all three channels without depending on Shopee'
 | Day | What | Initiative | Skill | Owner |
 |---|---|---|---|---|
 | 4 to 10 Nov | TikTok Origins: 1 post a day | 3 | ad-library, atlas-remix, ai-ugc-production, tiktok-caption-and-sound | Claude, Gerrick approves |
-| 6 Nov | Ads test day-3 red-flag check | 1 | atlas-ads-manager | Claude |
+| daily | Ads read from the ads watcher (day-3 hook check 6 Nov) | 1 | Atlas ads watcher task | Claude |
 | 10 Nov | Ads test verdict and fan-out of the winner | 1 | atlas-ads-manager, atlas-remix | Claude, Gerrick approves |
 | 10 Nov | Discovery Kit first read | 2 | shopee-ads-advisor | Claude |

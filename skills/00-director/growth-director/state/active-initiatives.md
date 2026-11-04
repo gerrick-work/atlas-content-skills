@@ -2,15 +2,15 @@
 
 Each: goal, KPI, deliverables, dates, read date, scale or kill rule, status. Status lines are dated and honest ("not checked" when not checked).
 
-## 1. Paid ads test 1: Origins static product cards (Meta + TikTok)
+## 1. Paid ads test 1: Origins static product cards (Meta)
 
-- Goal: find which ad family brings website and shop buyers outside Shopee's own ads.
-- KPI: purchases and cost per purchase; secondary CTR and cost per landing-page view.
-- Live set (3 Nov 2026): SEARCH_H1_STATIC, PROBLEMS_H1_STATIC, MEME_H1_SAFFRON, MEME_H1_ROSE, BUT_H1_STATIC. Links go to origins.atlasdsf.com.
-- Budget: RM40/day across both platforms, 7 days (3 to 10 Nov 2026).
-- Read: day 3 (6 Nov) red-flag check only; decide day 7 (10 Nov).
-- Rule: kill an ad with spend and CTR under 0.5% at day 3; at day 7 keep the top family, fan it out with `atlas-remix` (3 hooks x 2 colours), drop the rest.
-- Status 4 Nov 2026: live per Gerrick; results not checked yet.
+- Goal: find which ad family brings website buyers from outside Shopee.
+- KPI: website orders and cost per order (ceiling RM15.65, break-even RM31.30); secondary link CTR and landing-page views.
+- Live set: Meta campaign ORI_META_TRAFFIC_HOBBYIST_NOV26, RM40/day, 4 Nov 00:00 to 11 Nov 00:00 MYT (max ~RM280). Ads: SEARCH_H1_STATIC, PROBLEMS_H1_STATIC, MEME_H1_SAFFRON, MEME_H1_ROSE, BUT_H1_STATIC, linking to origins.atlasdsf.com/oils with UTM tags. TikTok ads not running.
+- Watched daily by the "Atlas ads watcher" scheduled task (8:42am), which owns the day-by-day rules and the Atlas Origins Ads Dashboard (https://claude.ai/artifact/F2MhoWFSdvg2pqr99Uhmse). The Director reads its results; it does not re-check Ads Manager.
+- Known gap: no Meta pixel, so Meta can't see sales; orders are matched in Odoo by UTM.
+- Decide: 10 to 11 Nov. Winner gets fanned out with `atlas-remix` (3 new hooks on the winning family, held to one colour), losers off.
+- Status 4 Nov 2026: day 1 live; results not read by the Director yet.
 
 ## 2. Shopee Discovery Kit launch
 

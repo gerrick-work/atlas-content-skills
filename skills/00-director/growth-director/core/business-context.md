@@ -30,7 +30,7 @@ Odoo revenue is not fully trusted; Pack Station is the source of truth for shipp
 ## Money and limits
 
 - Marketing envelope RM500 to 2,000 a month (set Sep 2026); Shopee ads have run ~RM26 to 40/day.
-- Meta/TikTok paid test from 3 Nov 2026: RM40/day across both, 7 days, static product cards, pushing individual items or the Discovery Kit, links to the website.
+- Meta paid test 4 to 11 Nov 2026: RM40/day, 5 static product cards, links to the website, no pixel yet (orders matched in Odoo by UTM). TikTok ads not running.
 - Discovery Kit Shopee ad test: max RM100.
 - Affiliate commission ceiling 25%; no commission increases; Pay Per Post budget RM300.
 - AI generation: OpenRouter, about US$1 per reel, video budget about US$20 a month.
