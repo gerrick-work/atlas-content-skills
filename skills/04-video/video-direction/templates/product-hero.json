@@ -1,0 +1,11 @@
+{
+ "name": "ORIGINS_BROLL_DROPPER",
+ "model": "google/veo-3.1-lite", "seconds": 4, "aspect": "9:16", "resolution": "720p", "audio": false,
+ "look": "bright clean daylight, white marble counter, soft shadows, premium but natural",
+ "shots": [
+  {"t": [0, 4], "framing": "macro", "angle": "eye level", "move": "slow push-in", "lens": "100mm macro lens, shallow depth of field",
+   "setting": "a small amber glass dropper bottle on a white marble counter",
+   "action": "a single golden drop falls from the dropper tip into a clear glass vial, a tiny ripple, only hands visible, no faces"}
+ ],
+ "keep": ["no faces"]
+}

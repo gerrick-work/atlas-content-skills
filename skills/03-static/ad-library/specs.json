@@ -1,0 +1,7 @@
+[
+ {"name":"SEARCH_H1_STATIC","family":"Search intent","template":"search","query":"how to make my own perfume","hero":"bottles","cta":"Make your own, from RM9.90","link":"/oils"},
+ {"name":"PROBLEMS_H1_STATIC","family":"Problem to solution","template":"problems","problems":["Everyone smells the same","Niche perfume costs a bomb","No idea where to start","Big bottles, big commitment","Classes are pricey"],"images":["938","956"],"cta":"Try it from RM9.90","link":"/oils"},
+ {"name":"MEME_H1_SAFFRON","family":"Emotional / relatable","template":"meme","quote":"You can't make a<br>signature scent","setup":"Me with RM35:","images":["879","938","956"],"cta":"Grab all 3 for RM33.70","bg":"saffron","link":"/oils"},
+ {"name":"MEME_H1_ROSE","family":"Emotional / relatable","template":"meme","quote":"You can't make a<br>signature scent","setup":"Me with RM35:","images":["879","938","956"],"cta":"Grab all 3 for RM33.70","bg":"rose","link":"/oils"},
+ {"name":"BUT_H1_STATIC","family":"Product spotlight","template":"presenter","quote":"Nobody smells like dessert","image":"879","caption":"Cotton Candy Accord makes<br>your perfume smell sweet,","accent":"deliciously.","cta":"Try it now, RM11.90","link":"Cotton Candy Accord page"}
+]

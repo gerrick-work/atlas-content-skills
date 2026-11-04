@@ -1,0 +1,24 @@
+{
+ "name": "ORIGINS_UGC_LATE_T4",
+ "model": "google/veo-3.1-lite", "seconds": 6, "aspect": "9:16", "resolution": "720p", "audio": true,
+ "look": "real Malaysian apartment, natural window light, slightly warm, looks filmed on a phone, casual and unpolished",
+ "character": {
+  "who": "Malaysian Chinese woman, about 25",
+  "face": "round face, light freckles across the nose, straight dark brows",
+  "hair": "shoulder-length straight black hair, middle parting, worn down in both shots",
+  "wardrobe": "plain oversized cream t-shirt"
+ },
+ "shots": [
+  {"t": [0, 3], "framing": "medium close-up", "angle": "eye level", "move": "locked-off", "lens": "phone wide lens",
+   "setting": "she stands just inside her front door, phone on a tripod in front of her, camera never visible",
+   "action": "she rushes in, slightly out of breath, and apologises to someone off camera",
+   "speaker": "She", "line": "Sorry I'm late, traffic was crazy!", "delivery": "fast and breathless"},
+  {"t": [3, 6], "cut": "hard cut", "framing": "medium", "angle": "eye level", "move": "locked-off", "lens": "phone wide lens",
+   "setting": "the same woman at her kitchen table, no bag and no sunglasses",
+   "action": "she happily drips oil from small amber dropper bottles into a glass beaker, completely absorbed, smiling to herself",
+   "sfx": "soft glass clinks"}
+ ],
+ "ambient": "quiet apartment room tone",
+ "music": "none",
+ "keep": ["no phones in frame", "no bag and no sunglasses in the second shot"]
+}

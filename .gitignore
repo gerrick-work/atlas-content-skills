@@ -1,0 +1,6 @@
+__pycache__/
+out/
+render/
+*.png
+*.mp4
+.DS_Store

@@ -1,0 +1,25 @@
+---
+name: atlas-content
+description: The single entry point for all Atlas DSF and Atlas Origins content work (posts, carousels, static ads, reels, UGC, remixes of a reference or winner, captions, shipping, ads). Pulls the atlas-content-skills GitHub repo and follows the right skill in it.
+---
+
+# Atlas content (router)
+
+All Atlas content skills live in one GitHub repo: **REPO_SLUG** (private). This skill only fetches it and points to the right file; the instructions themselves are in the repo, so an update pushed there reaches every chat.
+
+## 1. Pull the repo (every run)
+
+1. If the session doesn't have the repo yet, add it with the `add_repo` tool (owner and repo from REPO_SLUG, read access), then clone it:
+   `git clone https://github.com/REPO_SLUG.git /home/claude/atlas-content-skills`
+   If it is already there: `git -C /home/claude/atlas-content-skills pull`.
+2. If GitHub can't be reached, say so in one line and use the newest copy in the "ads week 1 NOV" Project (`atlas-content-skills/` docs) instead.
+
+## 2. Route
+
+1. Read `context/atlas-brand-context.md`.
+2. Read `README.md`, find the job in "The sequence" or "Common jobs", and open that skill's `SKILL.md` with Read.
+3. Follow it exactly, including the skills it hands off to (open each from the repo the same way).
+
+## 3. Write back what was learned
+
+When a run produces a new rule, template, shot plan or fix, edit the skill it belongs to in the repo and push with a short dated message (`git commit -m "4 Nov 2026: ..."`), after telling Gerrick in one line what changed. Never commit keys, customer data or supplier names.

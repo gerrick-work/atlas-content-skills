@@ -1,0 +1,11 @@
+[
+ {"code":"MEME","family":"Emotional / relatable","template":"meme","images":["879","938","956"],"cta":"Grab all 3 for RM33.70","link":"/oils","h_start":2,
+  "vary":{"hooks":[{"quote":"Perfume is only for<br>rich people","setup":"Me with RM35:"},
+                   {"quote":"Smelling expensive<br>costs a fortune","setup":"Me with RM35:"},
+                   {"quote":"You need a lab to<br>make perfume","setup":"Me in my kitchen:"}],
+          "bg":["saffron","rose","green"]}},
+ {"code":"BUT","family":"Product spotlight","template":"presenter","image":"879","accent":"deliciously.","cta":"Try it now, RM11.90","link":"Cotton Candy Accord page","h_start":2,
+  "vary":{"hooks":[{"quote":"Sweet perfume smells cheap","caption":"Cotton Candy Accord makes<br>sweet smell expensive,"},
+                   {"quote":"Gourmand is too hard to make","caption":"Cotton Candy Accord does<br>the hard part,"}],
+          "bg":["white","saffron","rose"]}}
+]
