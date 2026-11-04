@@ -5,13 +5,13 @@ description: Fixed rules for directing AI video (Veo, Kling, Hailuo on OpenRoute
 
 # Video direction (shot and camera prompting)
 
-The one way Atlas writes prompts for AI video. Every other video skill (`explainer-reel`, `atlas-remix`, `hypit`, UGC skits) loads this before it spends money on a generation.
+The one way Atlas writes prompts for AI video. Every other video skill (`explainer-reel`, `atlas-remix`, `hypit`) loads this before it spends money on a generation. **For any UGC video, also load `../ai-ugc-production`**: it decides who the creator is, why they are filming and how they handle the product; this skill decides how that is written for the model. `shot.py` checks both when the plan has a `ugc` block.
 
 The idea: a director never says "make a nice video". They say what the frame is, where the camera sits, how it moves, what happens, what is heard. The model obeys the same way. Vague prompts get random camera work; slotted prompts get the shot you asked for.
 
 Tools (beside this file in the repo; copies in the appendices in case the repo isn't pulled):
 - `shot.py` (Appendix A): turns a shot plan (JSON) into the prompt, in the fixed order, and checks it (timing, move list, words per second, third-arm risk, price cap)
-- Templates (Appendix B): ready shot plans to copy (`ugc-skit-2shot.json`, `product-hero.json`). They live in `templates/` beside this file.
+- Templates (Appendix B): ready shot plans to copy (`ugc-first-impression.json` for UGC with the full `ugc` block, `ugc-skit-2shot.json`, `product-hero.json`). They live in `templates/` beside this file.
 
 ## 1. The formula (always this order)
 
@@ -48,7 +48,9 @@ Use only these words. `shot.py` warns on anything else.
 
 | Move | Use it for |
 |---|---|
-| locked-off | UGC and comedy. Default. Real people film on a tripod or prop the phone |
+| locked-off | Comedy skits and b-roll. Default for non-UGC |
+| propped | UGC default: phone leaning on a mirror, shelf or bottle, no movement |
+| selfie | UGC, one hand holds the phone, the other does ONE simple thing. Never two-handed actions |
 | slow push-in | build tension, "wait for it", the product moment |
 | slow pull-out | the reveal ("she made all of these herself") |
 | pan left / right, tilt up / down | follow a line of bottles, bottle to face |
@@ -100,6 +102,7 @@ Stop after 3 failed takes of one plan and tell Gerrick what keeps failing; the i
 
 | Recipe | Shots | Use |
 |---|---|---|
+| UGC first impression / discovery | 2 in one take: hook with the product already in hand, then the use and reaction (`ugc-first-impression.json`) | creator-style ads; follow `ai-ugc-production` |
 | UGC skit (setup, punchline) | 2: medium close-up line to camera, hard cut to the truth | memes, "Sorry I'm late" type trends |
 | Product proof | 1: macro, slow push-in, one drop | b-roll, ad hook shot |
 | Hands-only process | 2: top-down mixing, insert of the drop | explainer reels |
@@ -140,6 +143,8 @@ import json, sys
 # The only camera moves we use. One per shot. Anything else is a warning.
 MOVES = {
     'locked-off': 'locked-off camera on a tripod, no camera movement',
+    'propped': 'phone propped still on a surface, no camera movement',
+    'selfie': 'front-camera selfie at arm\'s length, one hand holds the phone, small natural hand sway',
     'slow push-in': 'slow, continuous dolly push-in',
     'slow pull-out': 'slow, continuous dolly pull-out',
     'pan left': 'slow pan left', 'pan right': 'slow pan right',
@@ -171,6 +176,18 @@ PRICE_PER_SEC = {            # US$ per second, last checked 4 Nov 2026; run list
 }
 CALL_CAP = 0.50              # connector cap per call
 
+# AI UGC standard (skills/04-video/ai-ugc-production). Baseline avoid list, trimmed per clip if needed.
+UGC_AVOID = [
+    'glossy commercial or studio-ad look, cinematic lighting, rim lights or heavy colour grading',
+    'perfectly symmetrical static influencer framing and unnaturally smooth camera movement',
+    'heavy artificial background blur and showroom-clean sets',
+    'choreographed gestures, rehearsed reactions, constant eye contact or a fixed smile',
+    'floating, morphing, duplicated or resized products; changing bottle shape, label or colour',
+    'slow motion, montage editing, music-video or TV-ad conventions',
+]
+UGC_REQUIRED = ['creator', 'motivation', 'setting', 'camera', 'opening', 'product_handling', 'performance', 'cta', 'continuity']
+WEAK_MOTIVATION = ('promot', 'advert', ' ad ', 'commercial', 'testimonial', 'everyone needs')
+
 
 def cap(t):
     return t[:1].upper() + t[1:]
@@ -194,6 +211,23 @@ def build(p):
     if len(shots) > 3:
         warn.append(f'{len(shots)} shots in one generation; more than 3 usually gets merged or skipped')
 
+    u = p.get('ugc')
+    if u:
+        for k in UGC_REQUIRED:
+            if not u.get(k):
+                warn.append(f'UGC: "{k}" is missing; the prompt is not ready (ai-ugc-production section 6)')
+        if any(w in f' {str(u.get("motivation","")).lower()} ' for w in WEAK_MOTIVATION):
+            warn.append('UGC: weak filming motivation (promoting / an ad / a testimonial); give a real reason to film now')
+        if len(u.get('imperfections', [])) > 3:
+            warn.append(f'UGC: {len(u["imperfections"])} imperfections stacked; keep two or three')
+        if len(u.get('hooks', [])) and len(u['hooks']) < 3:
+            warn.append('UGC: fewer than 3 hook options for a performance test')
+        cam = str(u.get('camera', '')).lower(); hand = str(u.get('product_handling', '')).lower()
+        if 'selfie' in cam and 'propped' not in cam and any(w in hand for w in ('both hands', 'two hands', 'unscrew', 'opens', 'drops onto', 'rubs')):
+            warn.append('UGC: handheld selfie with a two-handed product action makes a third arm; prop the phone')
+        if 'spray' in hand:
+            warn.append('UGC: spraying shown; our products are oils with droppers unless this one is a spray')
+
     lines = []
     head = (f'A single {secs}-second {p.get("aspect", "9:16")} vertical video made of {len(shots)} shot'
             f'{"s" if len(shots) > 1 else ""}. Look: {p["look"]}.')
@@ -202,6 +236,16 @@ def build(p):
     if ch:
         desc = '; '.join(f'{v}' for k, v in ch.items() if v)
         lines.append(f'Character (the same person, same face, same hair in every shot): {desc}.')
+    if u:
+        imp = u.get('imperfections', [])
+        for label, key in (('CREATOR', 'creator'), ('WHY THEY ARE FILMING', 'motivation'), ('SETTING', 'setting'),
+                           ('CAMERA', 'camera'), ('OPENING, FIRST 1 TO 3 SECONDS', 'opening'),
+                           ('PRODUCT HANDLING', 'product_handling')):
+            if u.get(key):
+                lines.append(f'{label}: {u[key]}' + ('' if str(u[key]).endswith('.') else '.'))
+        if imp:
+            lines.append('Small natural imperfections: ' + '; '.join(imp) + '.')
+        lines.append('SHOTS AND DIALOGUE:')
     for i, s in enumerate(shots):
         d = s['t'][1] - s['t'][0]
         move = s.get('move', 'locked-off')
@@ -214,15 +258,16 @@ def build(p):
         if d < 1.5:
             warn.append(f'shot {i+1} is {d}s; under 1.5s the model tends to drop it')
         text = ' '.join(str(s.get(k, '')) for k in ('action', 'setting')).lower()
-        if 'selfie' in text and any(w in text for w in ('both hands', 'two hands', 'claps', 'hands up', 'arms')):
-            warn.append(f'shot {i+1}: selfie plus a two-handed gesture makes a third arm; put the phone on a tripod')
-        if any(w in text for w in ('towards the camera', 'toward the camera', 'approaches the camera', 'walks into the camera')) and move != 'locked-off':
+        if (move == 'selfie' or 'selfie' in text) and any(w in text for w in ('both hands', 'two hands', 'claps', 'hands up', 'arms', 'unscrew', 'rubs')):
+            warn.append(f'shot {i+1}: selfie plus a two-handed gesture makes a third arm; prop the phone instead')
+        if any(w in text for w in ('towards the camera', 'toward the camera', 'approaches the camera', 'walks into the camera')) and move not in ('locked-off', 'propped'):
             warn.append(f'shot {i+1}: subject moving at the camera fights the camera move; lock the camera or drop the walk')
 
         cam = MOVES.get(move, move)
         seg = [f'[{ts(s["t"][0])}-{ts(s["t"][1])}]']
         if i > 0:
-            seg.append(f'{s.get("cut", "Hard cut").capitalize()} to:')
+            c = s.get('cut', 'hard cut')
+            seg.append('Same take continues:' if c == 'continuous' else f'{c.capitalize()} to:')
         seg.append(f'{s["framing"].capitalize()}, {s.get("angle", "eye level")}, {cam}'
                    f'{", " + s["lens"] if s.get("lens") else ""}.')
         seg.append(cap(s['setting']) + '.' if s.get('setting') else '')
@@ -240,6 +285,13 @@ def build(p):
     audio = [f'Ambient noise: {p["ambient"]}.' if p.get('ambient') else '',
              f'Music: {p.get("music", "none")}.']
     lines.append(' '.join(a for a in audio if a))
+    if u:
+        for label, key in (('PERFORMANCE', 'performance'), ('ENDING / CTA', 'cta')):
+            if u.get(key):
+                lines.append(f'{label}: {u[key]}' + ('' if str(u[key]).endswith('.') else '.'))
+        lines.append('AVOID: ' + '; '.join(UGC_AVOID + u.get('avoid', [])) + '.')
+        if u.get('continuity'):
+            lines.append(f'CONTINUITY: {u["continuity"]}' + ('' if str(u['continuity']).endswith('.') else '.'))
     keep = HOUSE_KEEP + p.get('keep', [])
     lines.append('Keep: ' + '; '.join(keep) + '.')
     prompt = '\n'.join(lines)
@@ -255,7 +307,8 @@ def build(p):
         warn.append(f'estimated US${cost} is over the US${CALL_CAP} per-call cap; shorten the clip')
     return {'name': p.get('name'), 'model': model, 'seconds': secs, 'aspect': p.get('aspect', '9:16'),
             'resolution': p.get('resolution', '720p'), 'generate_audio': bool(p.get('audio', True)),
-            'estimated_cost_usd': cost, 'warnings': warn, 'prompt': prompt}
+            'estimated_cost_usd': cost, 'warnings': warn, 'prompt': prompt,
+            'hooks': (u or {}).get('hooks', [])}
 
 
 if __name__ == '__main__':
@@ -269,6 +322,82 @@ if __name__ == '__main__':
 ```
 
 ## Appendix B: templates
+
+`ugc-first-impression.json`
+```json
+{
+ "name": "ORIGINS_UGC_FIRSTTRY_H1",
+ "model": "google/veo-3.1-lite",
+ "seconds": 6,
+ "aspect": "9:16",
+ "resolution": "720p",
+ "audio": true,
+ "look": "ordinary phone footage in a lived-in Malaysian condo bedroom, late afternoon window light, clear and watchable",
+ "character": {
+  "who": "Malaysian Malay woman, mid 20s, wearing a loose cotton tudung in dusty pink",
+  "face": "soft round face, no heavy makeup, small mole near the left eyebrow",
+  "wardrobe": "plain grey oversized t-shirt"
+ },
+ "ugc": {
+  "creator": "a beginner who has always bought ready-made perfume; curious, a little dry-humoured, comfortable on camera but not polished; recently bought her first perfume oils",
+  "motivation": "her friend dared her to make her own scent instead of buying another bottle, so she is recording her very first try to send back",
+  "setting": "bedroom vanity table with a few skincare bottles, a mug and a phone charger; daylight from a window on her left; tidy but lived-in",
+  "camera": "rear phone camera propped against the mirror at chest height, framing her from mid-chest up with the table edge in shot, slightly off-centre, stays still apart from one small bump when she touches the table",
+  "opening": "first frame: she is already holding a small amber dropper bottle up between two fingers, eyebrows raised at the lens; first line straight away, no greeting",
+  "product_handling": "right hand unscrews the dropper of a plain unbranded amber 10ml bottle, left hand stays flat on the table; she lets one drop fall onto her left inner wrist, puts the bottle down, rubs wrists together lightly once and lifts her wrist to smell from a short distance",
+  "imperfections": [
+   "glances at the screen once to check framing",
+   "a short pause before the second line"
+  ],
+  "performance": "matter-of-fact, half-amused, eye contact only on the first and last line, looks at her wrist while smelling; small surprised nod, no big reaction",
+  "cta": "the video ends on her look of mild surprise; CTA is added in the edit end card",
+  "continuity": "same tudung colour and drape, same t-shirt, the same single amber bottle, the same table layout, mole on the left side",
+  "hooks": [
+   "My friend said I can't make perfume. Watch me.",
+   "I spent RM9.90 instead of RM300. Let's see.",
+   "Okay, first time doing this, don't judge."
+  ]
+ },
+ "shots": [
+  {
+   "t": [
+    0,
+    3
+   ],
+   "framing": "medium close-up",
+   "angle": "eye level",
+   "move": "propped",
+   "lens": "phone wide lens",
+   "action": "she holds the dropper bottle up and delivers the hook",
+   "speaker": "She",
+   "line": "My friend said I can't make perfume.",
+   "delivery": "deadpan, quick"
+  },
+  {
+   "t": [
+    3,
+    6
+   ],
+   "cut": "continuous",
+   "framing": "medium close-up",
+   "angle": "eye level",
+   "move": "propped",
+   "lens": "phone wide lens",
+   "action": "she lets one drop fall on her inner wrist, rubs wrists once and smells, then nods, mildly impressed",
+   "speaker": "She",
+   "line": "Okay... that's actually nice.",
+   "delivery": "quiet, surprised",
+   "sfx": "soft cap click"
+  }
+ ],
+ "ambient": "quiet bedroom, faint aircon hum",
+ "music": "none",
+ "keep": [
+  "no phones in frame",
+  "no spraying"
+ ]
+}
+```
 
 `ugc-skit-2shot.json`
 ```json

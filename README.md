@@ -24,6 +24,7 @@ Claude pulls this repo at the start of any content task (via the `atlas-content`
 | | `skills/03-static/atlas-social-posts` | Atlas DSF posts and carousels (white-first, green gradients) |
 | | `skills/03-static/atlas-glass-grid` | 9-post DSF Instagram grid, frosted-glass style |
 | **04 Video** | `skills/04-video/video-direction` | Shot, camera and lens rules plus `shot.py`: load before ANY AI video generation |
+| | `skills/04-video/ai-ugc-production` | Standard for AI UGC: creator, reason to film, phone behaviour, first 3 seconds, product handling, script, QC rubric |
 | | `skills/04-video/explainer-reel` | Polished vertical explainer reel (US$1 cap per reel) |
 | | `skills/04-video/ugc-video` | AI UGC skit log, edit spec and disclosure rules |
 | **05 Ship and ads** | `skills/05-ship-and-ads/ship-content` | Publish or schedule to Meta after approval |
@@ -38,7 +39,7 @@ Claude pulls this repo at the start of any content task (via the `atlas-content`
 | Copy the structure of an ad I saw | atlas-remix, which runs atlas-script-lab, then ad-library or a carousel skill, then video-direction for video |
 | Make more of a winning ad | atlas-remix (variant plan: hooks first, then format, then colour) |
 | Make this week's posts | atlas-content-engine or atlas-growth-loop, then the static or video skill, then ship-content |
-| Make a UGC skit | video-direction (UGC skit recipe), then the edit spec in ugc-video |
+| Make an AI UGC video | ai-ugc-production (brief, 3 hooks, script) + video-direction (`shot.py`, `ugc-first-impression` template), then the edit spec in ugc-video |
 | Launch a test ad set | atlas-remix or ad-library, then atlas-ads-manager |
 
 ## Rules for changing this repo

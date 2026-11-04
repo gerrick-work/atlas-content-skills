@@ -1,6 +1,6 @@
 # AI UGC video ads (Atlas Origins)
 
-Prompting rules now live in `../video-direction/SKILL.md` (use `shot.py` for every generation). This file keeps the test log and the edit spec.
+The production standard is `../ai-ugc-production/SKILL.md`; prompt syntax is `../video-direction/SKILL.md` (use `shot.py` for every generation). This file keeps the test log and the edit spec.
 
 First test: 4 Nov 2026, "Sorry I'm late, traffic was crazy!" / "the traffic:" meme, remade with an AI persona and Atlas Origins as the punchline.
 

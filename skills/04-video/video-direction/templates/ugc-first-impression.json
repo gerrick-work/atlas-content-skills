@@ -1,0 +1,72 @@
+{
+ "name": "ORIGINS_UGC_FIRSTTRY_H1",
+ "model": "google/veo-3.1-lite",
+ "seconds": 6,
+ "aspect": "9:16",
+ "resolution": "720p",
+ "audio": true,
+ "look": "ordinary phone footage in a lived-in Malaysian condo bedroom, late afternoon window light, clear and watchable",
+ "character": {
+  "who": "Malaysian Malay woman, mid 20s, wearing a loose cotton tudung in dusty pink",
+  "face": "soft round face, no heavy makeup, small mole near the left eyebrow",
+  "wardrobe": "plain grey oversized t-shirt"
+ },
+ "ugc": {
+  "creator": "a beginner who has always bought ready-made perfume; curious, a little dry-humoured, comfortable on camera but not polished; recently bought her first perfume oils",
+  "motivation": "her friend dared her to make her own scent instead of buying another bottle, so she is recording her very first try to send back",
+  "setting": "bedroom vanity table with a few skincare bottles, a mug and a phone charger; daylight from a window on her left; tidy but lived-in",
+  "camera": "rear phone camera propped against the mirror at chest height, framing her from mid-chest up with the table edge in shot, slightly off-centre, stays still apart from one small bump when she touches the table",
+  "opening": "first frame: she is already holding a small amber dropper bottle up between two fingers, eyebrows raised at the lens; first line straight away, no greeting",
+  "product_handling": "right hand unscrews the dropper of a plain unbranded amber 10ml bottle, left hand stays flat on the table; she lets one drop fall onto her left inner wrist, puts the bottle down, rubs wrists together lightly once and lifts her wrist to smell from a short distance",
+  "imperfections": [
+   "glances at the screen once to check framing",
+   "a short pause before the second line"
+  ],
+  "performance": "matter-of-fact, half-amused, eye contact only on the first and last line, looks at her wrist while smelling; small surprised nod, no big reaction",
+  "cta": "the video ends on her look of mild surprise; CTA is added in the edit end card",
+  "continuity": "same tudung colour and drape, same t-shirt, the same single amber bottle, the same table layout, mole on the left side",
+  "hooks": [
+   "My friend said I can't make perfume. Watch me.",
+   "I spent RM9.90 instead of RM300. Let's see.",
+   "Okay, first time doing this, don't judge."
+  ]
+ },
+ "shots": [
+  {
+   "t": [
+    0,
+    3
+   ],
+   "framing": "medium close-up",
+   "angle": "eye level",
+   "move": "propped",
+   "lens": "phone wide lens",
+   "action": "she holds the dropper bottle up and delivers the hook",
+   "speaker": "She",
+   "line": "My friend said I can't make perfume.",
+   "delivery": "deadpan, quick"
+  },
+  {
+   "t": [
+    3,
+    6
+   ],
+   "cut": "continuous",
+   "framing": "medium close-up",
+   "angle": "eye level",
+   "move": "propped",
+   "lens": "phone wide lens",
+   "action": "she lets one drop fall on her inner wrist, rubs wrists once and smells, then nods, mildly impressed",
+   "speaker": "She",
+   "line": "Okay... that's actually nice.",
+   "delivery": "quiet, surprised",
+   "sfx": "soft cap click"
+  }
+ ],
+ "ambient": "quiet bedroom, faint aircon hum",
+ "music": "none",
+ "keep": [
+  "no phones in frame",
+  "no spraying"
+ ]
+}

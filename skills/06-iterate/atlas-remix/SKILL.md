@@ -15,7 +15,7 @@ It is the iteration layer. It does not replace the making skills; it feeds them:
 |---|---|
 | Static ad (Origins) | `skills/03-static/ad-library` (`ad_library.py`, `vary` block) |
 | Carousel or post | `atlas-origins-post-designs` (Origins B2C) or `atlas-social-posts` (DSF) |
-| Reel, b-roll, UGC skit | `video-direction` for every prompt, then `explainer-reel` or the UGC edit in `skills/04-video/ugc-video` |
+| Reel, b-roll, UGC | `ai-ugc-production` for UGC, `video-direction` for every prompt, then `explainer-reel` or the UGC edit in `skills/04-video/ugc-video` |
 | Hooks and lines | `atlas-script-lab` |
 | Publishing / ads | `ship-content` (organic), `atlas-ads-manager` (paid) |
 
@@ -76,7 +76,7 @@ Setup and product cut-outs are at the top of `ad_library.py`. If the reference's
 
 **Carousels.** Run the matching carousel skill with the translated angle; make each colour variant from the same copy.
 
-**Video and UGC.** Load `video-direction`. Breakdown shot table, then a shot plan per hook, run `shot.py`, show cost, generate, QC. Same hook as the static so the two can be compared.
+**Video and UGC.** Load `video-direction` (and `ai-ugc-production` for UGC: brief, three hooks with the body held constant, short test first, QC rubric). Breakdown shot table, then a shot plan per hook, run `shot.py`, show cost, generate, QC. Same hook as the static so the two can be compared.
 
 ## 6. Approval (one click)
 
