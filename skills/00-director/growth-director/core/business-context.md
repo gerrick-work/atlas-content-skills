@@ -22,7 +22,7 @@ Update this file when a fact changes. Date every change. Facts only; plans live 
 |---|---|---|---|---|
 | Shopee (atlasorigins.my) | 84 | RM2,533 | RM32.94 | ~70% of Shopee sales come from Shopee ads; almost no organic floor. W44 dipped to 8 orders (cause not checked) |
 | TikTok Shop | 20 | RM488 | RM26.50 | Falling: W42 9 orders, W44 2, W45 1 so far. No organic videos yet as of late Oct |
-| Website (origins.atlasdsf.com) | 1 | RM62.50 | | Just started |
+| Website (origins.atlasdsf.com) | 0 real | RM0 | | The 1 confirmed order (S00179, 3 Nov, RM62.50, customer "test", no UTM) is an admin test, corrected 5 Nov 2026. Odoo's channel report counts test orders; exclude customers named test/Admin test/TEST Claude |
 | Direct / B2B | 6 | RM1,622 | | Lumpy, not the KPI focus |
 
 Odoo revenue is not fully trusted; Pack Station is the source of truth for shipped orders.
