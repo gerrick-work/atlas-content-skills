@@ -2,6 +2,7 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 5 Nov 2026: direction: move large-scale ad testing onto TikTok for cheaper reach; Instagram/Facebook as the "see what we do" layer; Google search later. Gerrick. Director view: TikTok ads go to TikTok Shop first, start once 5 to 7 organic posts are live, Google ads not yet (no brand search volume to buy). Plan awaiting his A/B.
 - 5 Nov 2026: Director proposed fixing Meta under-delivery (RM2.08/day of RM40) and keeping 7 full days of spend by moving the end date, total cap unchanged. Awaiting Gerrick (A/B). No change made.
 
 - 4 Nov 2026: two lanes. Operations stays with Gerrick; marketing is owned by the Growth Director, which brings him only approvals. Director asks go onto the Odoo CEO Desk (tag "From: Growth Director") so they show on the CEO dashboard. Gerrick.
