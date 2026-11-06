@@ -31,7 +31,7 @@ Atlas Origins sells every day on all three channels without depending on Shopee'
 
 ## Open asks with Gerrick (6 Nov 2026)
 
-- CEO Desk 531 / chat 6 Nov: TikTok posting route. Recommended B (he posts from phone) to start today. Blocks initiative 3.
+- CEO Desk 531 / chat 6 Nov: TikTok posting route. Recommended A in chat (he posts from phone) to start today. Blocks initiative 3.
 - Meta delivery fix (asked 5 Nov, chat). Unanswered.
 - CEO Desk 533: Shopee ads cap 15%. Unanswered.
 - CEO Desk already holds more than 3 Director cards (531 to 537); no new card added today.
