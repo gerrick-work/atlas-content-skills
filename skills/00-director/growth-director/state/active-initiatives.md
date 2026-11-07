@@ -13,6 +13,7 @@ Each: goal, KPI, deliverables, dates, read date, scale or kill rule, status. Sta
 - Status 4 Nov 2026: day 1 live; results not read by the Director yet.
 - Status 5 Nov 2026: under-delivering. Day 1 spent RM2.08 of RM40 (~5%), 507 impressions, 4 link clicks (all BUT_H1_STATIC), 2 landing page views, 0 website orders; 5 Nov RM0.02 by 8:42am (ads watcher dashboard). Cause not checked. At this pace the 10 Nov verdict has no data. Proposed to Gerrick: fix delivery inside the RM40/day cap and move the end date to keep 7 full days (max RM280 unchanged). Note logged on Odoo task 503.
 - Status 6 Nov 2026: Gerrick has not answered the delivery fix; no change made. Ads watcher dashboard last updated 5 Nov 8:47am; today's 8:42am result not posted by 9:13am (not checked further). Odoo: first paid website order S00243, 5 Nov 22:28, Amber 3g + delivery RM17.80, paid by DuitNow QR, customer not a test account, no UTM, so it can't be credited to the ads. Checkout works end to end.
+- Status 7 Nov 2026: delivery has picked up without a change from us: 5 Nov RM11.90 spent, 94 link clicks (75 from a 6th ad, CHAT_H1_SCREENSHOT, not in the original 5; who added it not checked), 54 landing page views, 0 orders (ads watcher, last updated 6 Nov 9:46am; 6 Nov numbers not posted by 9:13am 7 Nov). Odoo: 4 website carts tagged ORI_NOV26 (1 meta/paid, 3 ig/social) 6 to 7 Nov, about RM175, none reached the details form, 0 paid. Constraint moved from delivery to cart-to-payment. Checkout walk done (brief execution/briefs/2026-11-07-website-cart-leak.md). Proposed to Gerrick: free West Malaysia delivery over RM35 until 11 Nov (A) or no change (B). My test carts S00257 to S00259 (UTM source test_director) must be excluded.
 
 ## 2. Shopee Discovery Kit launch
 
@@ -24,6 +25,7 @@ Each: goal, KPI, deliverables, dates, read date, scale or kill rule, status. Sta
 - Status 4 Nov 2026: listing and ad approved 3 Nov; live status not checked.
 - Status 5 Nov 2026: live status still not checked. Odoo shows 1 Shopee order on 4 Nov (RM11.73), 0 so far on 5 Nov; no kit order visible.
 - Status 6 Nov 2026: 1 Shopee order 5 Nov (RM94.62, contents not checked for a kit). Ad live status still not checked.
+- Status 7 Nov 2026: no new Shopee order since S00248 (6 Nov, RM57.15, 4 lines, kit not checked). Ad live status still not checked.
 
 ## 3. TikTok base for Atlas Origins
 
@@ -35,3 +37,4 @@ Each: goal, KPI, deliverables, dates, read date, scale or kill rule, status. Sta
 - Status 4 Nov 2026: cadence decided; rename and first posts not done; no TikTok posting skill in the repo yet. Decision card on the CEO Desk (task 531): how posts go up (A: Claude uploads via TikTok Studio after his tap, recommended; B: he posts from his phone), and whether the rename is done.
 - Status 5 Nov 2026: card 531 still unanswered; 0 posts up. TikTok Shop 0 orders 3 to 5 Nov (Odoo).
 - Status 6 Nov 2026: card 531 still unanswered (day 3), 0 posts up, TikTok Shop 0 orders 3 to 6 Nov. Brief for the first 3 posts drafted (execution/briefs/2026-11-06-tiktok-first-3-posts.md); no video made, no spend. Asked Gerrick in chat to pick the route; recommended A in chat (he posts from his phone from files we send; B is Claude uploading via TikTok Studio) to start today, since the cloud run can't reach his computer for TikTok Studio.
+- Status 7 Nov 2026: card 531 still unanswered (day 4), 0 posts up. TikTok Shop 1 order 6 Nov (S00253, RM12.90), the first since 3 Nov, source not known. Not re-pushed today; stays in the open asks.
