@@ -2,6 +2,7 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 7 Nov 2026: no free delivery below RM100 on the website (rejects the Director's RM35 proposal; FREESHIP100 stays). Gerrick.
 - 7 Nov 2026: Director dropped the 5 Nov Meta delivery fix (spend picked up on its own) and made the website cart-to-payment leak the top move: 4 ad carts, about RM175, 0 paid. Proposed free West Malaysia delivery over RM35 until 11 Nov (A) vs no change (B). Awaiting Gerrick. No change made.
 - 6 Nov 2026: Director made unblocking TikTok posting the top move over the Meta fix (TikTok is Gerrick's chosen test channel; Meta is barely spending so little is lost by waiting). Recommended Gerrick posts from phone (A in the 6 Nov chat) to start; Claude uploading via TikTok Studio (B) later in a desktop-linked session. Awaiting Gerrick. No change made.
 - 5 Nov 2026: direction: move large-scale ad testing onto TikTok for cheaper reach; Instagram/Facebook as the "see what we do" layer; Google search later. Gerrick. Director view: TikTok ads go to TikTok Shop first, start once 5 to 7 organic posts are live, Google ads not yet (no brand search volume to buy). Plan awaiting his A/B.
