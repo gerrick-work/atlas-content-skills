@@ -21,3 +21,13 @@ Free without approval (Director will raise with Gerrick as ops items, not change
 
 Read: 10 Nov with the ads verdict. Success: 1 or more paid website orders tagged ORI_NOV26 by 10 Nov.
 Cause is not proven. Shipping cost is the likeliest cart-stage blocker we can change today; the other common one (people browsing, not ready) can't be fixed with settings.
+
+## Update 8 Nov 2026: payment step walked (iPhone 13 emulation, nothing paid)
+
+- Address form saves, then goes straight to /shop/payment. Delivery (RM4.90) is added there, so a RM12.90 item shows as RM17.80 for the first time on the payment page.
+- Payment options: Debit / credit card, GrabPay, DuitNow QR, Apple Pay (coming soon). **No FPX online banking.** "Pay now" stays grey until a method is picked.
+- Real shoppers since the last run: S00260 (chatgpt.com, RM30.80) reached the payment page and left without a payment attempt; S00266 (no UTM, RM60.50) saved details and stopped before delivery; S00262 (meta/paid, RM25.80) never filled details. No payment transaction since S00243.
+- Test carts from this walk: S00267, S00268 (UTM source test_director, partner TEST Claude Director). Exclude.
+
+Proposal (needs Gerrick's yes): A. switch on FPX online banking on the website payment provider (his login; which provider runs the card/GrabPay/DuitNow methods not checked, payment settings are off-limits to the Odoo connector) and send Odoo's cart reminder email to S00260 and S00266. B. change nothing; judge 10 Nov on clicks and carts.
+Cause still not proven. Most ad carts never reach the details form; FPX only helps the few who reach payment.

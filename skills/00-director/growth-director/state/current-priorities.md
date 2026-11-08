@@ -1,6 +1,6 @@
 # Current priorities
 
-Last re-plan: 4 Nov 2026 (first run). Daily check 7 Nov 2026.
+Last re-plan: 4 Nov 2026 (first run). Daily check 8 Nov 2026.
 
 ## 90 days (to early Feb 2027)
 
@@ -25,14 +25,16 @@ Atlas Origins sells every day on all three channels without depending on Shopee'
 | 4 to 10 Nov | TikTok Origins: 1 post a day | 3 | ad-library, atlas-remix, ai-ugc-production, tiktok-caption-and-sound | Claude, Gerrick approves |
 | 6 Nov | First 3 TikTok videos on a contact sheet, once route picked | 3 | atlas-script-lab, explainer-reel, tiktok-caption-and-sound | Claude, Gerrick approves |
 | 7 Nov | Website cart leak: free delivery under RM100 rejected by Gerrick. Next: land rate (55%, page speed) and cart-to-buy read with the ad-or-funnel diagnostic | 1 | atlas-ads-manager | Claude |
+| 8 Nov | Payment step: no FPX online banking. Proposed FPX (Gerrick's login) + cart reminder to 2 shoppers who left details. Awaiting A/B | 1 | Director, Gerrick | Gerrick approves |
 | daily | Ads read from the ads watcher (day-3 hook check 6 Nov, only meaningful once spend is pacing) | 1 | Atlas ads watcher task | Claude |
 | 10 Nov | Ads test verdict and fan-out of the winner | 1 | atlas-ads-manager, atlas-remix | Claude, Gerrick approves |
 | 10 Nov | Discovery Kit first read | 2 | shopee-ads-advisor | Claude |
 
-## Open asks with Gerrick (7 Nov 2026)
+## Open asks with Gerrick (8 Nov 2026)
 
+- Chat 8 Nov: FPX online banking on website checkout + cart reminder to 2 shoppers (A) vs no change (B). Unanswered.
 - Chat 7 Nov: free delivery over RM35 rejected (stays at RM100).
-- CEO Desk 531 / chat 6 Nov: TikTok posting route. Unanswered day 4. Blocks initiative 3.
+- CEO Desk 531 / chat 6 Nov: TikTok posting route. Unanswered day 5. Blocks initiative 3.
 - Ops items for Gerrick (not asked yet as cards): Agarwood 3g listed on the website but can't be bought; WELCOME5 box hidden behind the sticky checkout bar on phones.
 - Meta delivery fix (asked 5 Nov): no longer needed, delivery picked up on its own (5 Nov RM11.90, 94 clicks). Dropped.
 - CEO Desk 533: Shopee ads cap 15%. Unanswered.
