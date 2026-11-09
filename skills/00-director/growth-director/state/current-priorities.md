@@ -1,6 +1,6 @@
 # Current priorities
 
-Last re-plan: 4 Nov 2026 (first run). Daily check 8 Nov 2026.
+Last re-plan: 9 Nov 2026 (Monday). Daily check 9 Nov 2026.
 
 ## 90 days (to early Feb 2027)
 
@@ -18,24 +18,33 @@ Atlas Origins sells every day on all three channels without depending on Shopee'
 - Discovery Kit verdict and Shopee AOV read (initiative 2).
 - Capture: decide how website visitors who don't buy get kept (WhatsApp or email). Parked until initiative 1 shows traffic.
 
-## 7 days (4 to 10 Nov 2026)
+## Last week's read (4 to 8 Nov 2026, re-plan 9 Nov)
+
+- 1 Meta test: RM64.42 spent of RM280, 501 link clicks, 267 landing views, 0 website orders; all 6 ads Paused on the dashboard by 8 Nov (who paused not checked). Verdict: keep the ad family (CHAT_H1_SCREENSHOT), fix the destination. Website: 0 paid ad orders; leaks at details form and payment page (no FPX).
+- 2 Discovery Kit: first kit order 9 Nov (S00274, RM49.90). Ad spend not checked. Keep, read 10 Nov.
+- 3 TikTok: 0 posts, card 531 unanswered 6 days. Blocked on Gerrick, not on work.
+
+## 7 days (9 to 15 Nov 2026)
 
 | Day | What | Initiative | Skill | Owner |
 |---|---|---|---|---|
-| 4 to 10 Nov | TikTok Origins: 1 post a day | 3 | ad-library, atlas-remix, ai-ugc-production, tiktok-caption-and-sound | Claude, Gerrick approves |
-| 6 Nov | First 3 TikTok videos on a contact sheet, once route picked | 3 | atlas-script-lab, explainer-reel, tiktok-caption-and-sound | Claude, Gerrick approves |
-| 7 Nov | Website cart leak: free delivery under RM100 rejected by Gerrick. Next: land rate (55%, page speed) and cart-to-buy read with the ad-or-funnel diagnostic | 1 | atlas-ads-manager | Claude |
-| 8 Nov | Payment step: no FPX online banking. Proposed FPX (Gerrick's login) + cart reminder to 2 shoppers who left details. Awaiting A/B | 1 | Director, Gerrick | Gerrick approves |
-| daily | Ads read from the ads watcher (day-3 hook check 6 Nov, only meaningful once spend is pacing) | 1 | Atlas ads watcher task | Claude |
-| 10 Nov | Ads test verdict and fan-out of the winner | 1 | atlas-ads-manager, atlas-remix | Claude, Gerrick approves |
-| 10 Nov | Discovery Kit first read | 2 | shopee-ads-advisor | Claude |
+| 9 Nov | Ads test 2 drafted: chat ad to the Shopee shop, RM20/day 10 to 16 Nov, max RM140 (brief 2026-11-09-ads-test-2-shopee.md). Awaiting A/B | 1 | atlas-ads-manager | Gerrick approves, link swap in Ads Manager |
+| 10 Nov | Test 1 final read once the 9 and 10 Nov ads watcher numbers land | 1 | ads watcher task | Claude |
+| 10 Nov | Discovery Kit first read (kit orders, ad spend if Gerrick shares a screenshot) | 2 | shopee-ads-advisor | Claude |
+| 11 Nov | Shopee 11.11 (card 532 "Join Shopee 11.11 campaign", status not checked) | 2 | | Gerrick |
+| 13 Nov | Test 2 day-3 red flag check (if approved) | 1 | atlas-ads-manager | Claude |
+| any day | Website FPX online banking (asked 8 Nov) | 1 | | Gerrick |
+| on yes | TikTok first 3 posts (brief 2026-11-06) | 3 | atlas-script-lab, explainer-reel, tiktok-caption-and-sound | Claude, Gerrick approves |
 
-## Open asks with Gerrick (8 Nov 2026)
+30-day check (9 Nov): winning ad family found (clicks) but not yet tied to sales; TikTok daily posting not started (0 of 4 weeks); Discovery Kit selling; capture still parked. Behind on TikTok and on a proven paid path.
 
+## Open asks with Gerrick (9 Nov 2026)
+
+- Chat 9 Nov: ads test 2 to Shopee RM20/day 10 to 16 Nov, max RM140 (A) vs ads off until FPX is on the website (B). Unanswered.
 - Chat 8 Nov: FPX online banking on website checkout + cart reminder to 2 shoppers (A) vs no change (B). Unanswered.
 - Chat 7 Nov: free delivery over RM35 rejected (stays at RM100).
-- CEO Desk 531 / chat 6 Nov: TikTok posting route. Unanswered day 5. Blocks initiative 3.
-- Ops items for Gerrick (not asked yet as cards): Agarwood 3g listed on the website but can't be bought; WELCOME5 box hidden behind the sticky checkout bar on phones.
-- Meta delivery fix (asked 5 Nov): no longer needed, delivery picked up on its own (5 Nov RM11.90, 94 clicks). Dropped.
+- CEO Desk 531 / chat 6 Nov: TikTok posting route. Unanswered day 6. Blocks initiative 3.
+- CEO Desk 532: Join Shopee 11.11 campaign (Do now since 4 Nov). Status not checked.
 - CEO Desk 533: Shopee ads cap 15%. Unanswered.
-- CEO Desk already holds more than 3 Director cards (531 to 537); no new card added today.
+- Ops items for Gerrick (not asked yet as cards): Agarwood 3g listed on the website but can't be bought; WELCOME5 box hidden behind the sticky checkout bar on phones.
+- CEO Desk holds 9 Director-tagged cards (531 to 543), none moved since 4 Nov; no new card added.
