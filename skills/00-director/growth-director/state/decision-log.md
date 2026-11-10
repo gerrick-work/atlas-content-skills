@@ -2,6 +2,7 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 10 Nov 2026: Director verdict on Meta test 1 (data to 7 Nov, watcher stale 2 days): ad family CHAT_H1_SCREENSHOT kept, website destination failed (0 orders from 267 landing views). Test 2 moved to 12 to 18 Nov (was 10 to 16) so 11.11 stays outside the read; RM20/day, max RM140 unchanged. Re-proposed A vs B (ads off until FPX). Awaiting Gerrick. No change made.
 - 9 Nov 2026: Director verdict on Meta test 1 (to 7 Nov): ads bring cheap clicks (RM0.13, 501 clicks), website converts 0 of 267 landing views. Proposed test 2: winning chat ad sent to the Shopee shop, RM20/day 10 to 16 Nov, max RM140 (A) vs ads off until FPX is on the website (B). Departs from the 3 Nov 'ad links go to the website' rule because the website has not closed a single ad visitor. Awaiting Gerrick. No change made.
 - 8 Nov 2026: Director proposed adding FPX online banking to website checkout (missing today; card, GrabPay, DuitNow QR only) plus an Odoo cart reminder email to the 2 shoppers who left details (S00260, S00266), instead of revisiting free delivery (rejected 7 Nov). A vs B (no change, judge 10 Nov on clicks and carts). Awaiting Gerrick. No change made.
 - 7 Nov 2026: no free delivery below RM100 on the website (rejects the Director's RM35 proposal; FREESHIP100 stays). Gerrick.
