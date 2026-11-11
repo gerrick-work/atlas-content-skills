@@ -249,7 +249,7 @@ def render(specs, out_dir):
         jobs.append([p, os.path.join(out_dir, s['name'] + '.png')])
     js = f'''import {{ chromium }} from '{WORK}/node_modules/playwright/index.mjs';
 const jobs = {json.dumps(jobs)};
-const b = await chromium.launch({{args:['--allow-file-access-from-files']}});
+const b = await chromium.launch({{executablePath:'/usr/bin/google-chrome',args:['--allow-file-access-from-files']}});
 for (const [src, out] of jobs) {{ const p = await b.newPage({{viewport:{{width:1080,height:1350}}}});
 await p.goto('file://' + src); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(300);
 await p.screenshot({{path: out, clip:{{x:0,y:0,width:1080,height:1350}}}}); await p.close(); }}
