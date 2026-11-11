@@ -15,3 +15,12 @@ Known weakness: the 11.11 lift can spill into 12 Nov; compare against the same w
 
 Why: test 1 to 7 Nov: RM64.42 spent, 501 link clicks (RM0.13 each), 267 landing views, 0 website orders. Ads bring people; the website doesn't close. Shopee closes (3 orders RM413.50 on 8 to 9 Nov, first Discovery Kit order S00274).
 Website fix (FPX online banking, asked 8 Nov) stays open in parallel; once it's live, website traffic gets re-tested.
+
+## Link-swap steps for Gerrick (added 11 Nov 2026, about 5 minutes, only after his yes)
+
+1. Ads Manager, campaign ORI_META_TRAFFIC_HOBBYIST_NOV26 (all ads show Ended since 11 Nov).
+2. Tick the ad set, Duplicate, into the same campaign. Name it TEST2_SHOPEE_NOV26.
+3. In the new ad set: Daily budget RM20. Schedule start 12 Nov 2026 00:00, end 19 Nov 2026 00:00 (Malaysia time). Audience unchanged.
+4. Keep only 2 ads on: CHAT_H1_SCREENSHOT and BUT_H1_STATIC. Turn the other 4 off.
+5. In each of the 2 ads, change Website URL to the Atlas Origins Shopee shop link (https://shopee.com.my/shop/202452044, open it on your phone first to check it lands on the shop) and keep the UTM tail as utm_source=meta&utm_medium=paid&utm_campaign=ORI_TEST2_NOV26.
+6. Publish. Screenshot the ad set showing "Active" or "Scheduled" and send it here.

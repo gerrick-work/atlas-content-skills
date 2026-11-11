@@ -19,6 +19,8 @@ Each: goal, KPI, deliverables, dates, read date, scale or kill rule, status. Sta
 - Status 9 Nov 2026: ads watcher dashboard (last updated 8 Nov 9:32am, data to 7 Nov; 9 Nov update not posted by 9:15am) shows all 6 ads Paused. Who paused not checked; CHAT_H1_SCREENSHOT had passed the dashboard's RM31-with-0-orders pause rule (RM57.72). 7 Nov RM19.32, 186 clicks. Test to date RM64.42 of RM280, 501 link clicks (~RM0.13), 267 landing views, 0 orders. Odoo 8 Nov 9:13am to 9 Nov 9:15am: 0 paid website orders; new carts S00269 (Public user, no UTM, RM12.90) and S00273 (chatgpt.com, RM10.90), neither reached details. Read: ad stage works (CHAT family wins on clicks), website doesn't close. Drafted test 2 (execution/briefs/2026-11-09-ads-test-2-shopee.md): same chat ad linked to the Shopee shop, RM20/day 10 to 16 Nov, max RM140. Proposed to Gerrick as A; B keeps ads off until FPX is on the website. FPX ask (8 Nov) unanswered. No change made.
 - Status 10 Nov 2026: ads watcher dashboard still last updated 8 Nov 9:32am (data to 7 Nov); no 9 or 10 Nov update by 9:14am, so the watcher has missed 2 mornings (cause not checked). Ads were last shown Paused; current state not checked. Test 1 verdict (due today) stands on data to 7 Nov: RM64.42, 501 clicks, 0 website orders; keep the CHAT family, change the destination. Odoo 9 Nov 9:15am to 10 Nov 9:14am: 0 website orders and 0 new website carts. Test 2 start moved to 12 Nov (12 to 18 Nov, max RM140 unchanged) so 11.11 doesn't blur the read; re-proposed as A, B keeps ads off. FPX ask (8 Nov) still unanswered. No change made.
 
+- Status 11 Nov 2026: ads watcher back (dashboard updated 11 Nov 8:45am, data to 10 Nov). All 6 ads Ended; RM0 spent 8 to 10 Nov. Test 1 final: RM64.42 of RM280, 501 link clicks, 267 landing views, 0 ad orders. Odoo 10 Nov 9:14am to 11 Nov 9:17am: 1 real paid website order, S00279 (10 Nov, Sandalwood 3g + Jasmine 3g + delivery, RM30.70, DuitNow QR), source chatgpt.com, not the ads. chatgpt.com now 3 of the recent real website carts (S00260, S00273, S00279), 1 paid. S00280, S00281 and paid-then-cancelled S00222 are "Jiaqi, Admin Test" checkout tests (exclude). FPX: not checked (payment settings are off-limits to the connector). Test 2 (12 to 18 Nov) re-asked a 3rd time; needs yes today. Added Ads Manager link-swap steps to the brief. No change made in Ads Manager.
+
 
 ## 2. Shopee Discovery Kit launch
 
@@ -35,6 +37,8 @@ Each: goal, KPI, deliverables, dates, read date, scale or kill rule, status. Sta
 - Status 9 Nov 2026: first Discovery Kit order seen in Odoo: S00274, 9 Nov, Shopee, "Perfume Discovery Kit 4+1 FREE" RM49.90. Also S00271 8 Nov RM311.80 (12 x 15g oils, one buyer) and S00270 RM51.80. Shopee 3 orders RM413.50 since last run. Kit ad live status and spend still not checked. Read due 10 Nov.
 - Status 10 Nov 2026 (read due today): no new kit order since S00274 (9 Nov). Shopee 4 orders RM62.50 since last run (S00275 Frangipani, S00276 Freesia, S00277 White Musk, S00278 Ambroxan RM26.90 with RM21 order discount, sold at RM5.90; who funded that discount not checked). Kit ad spend and live status still not checked. Read so far: 1 kit order in 7 days; decide 17 Nov needs the kit ad spend from Shopee.
 
+- Status 11 Nov 2026: second kit order S00283 (10 Nov, RM43.11 after an RM11.98 order discount, funder not checked). Shopee 4 orders RM132.87 since last run (S00282 Amber, S00283 kit, S00284 Hedione + White Musk, S00285 Arabian Oud). 2 kit orders in 8 days. Kit ad spend still not checked; decide 17 Nov.
+
 
 ## 3. TikTok base for Atlas Origins
 
@@ -50,3 +54,4 @@ Each: goal, KPI, deliverables, dates, read date, scale or kill rule, status. Sta
 - Status 8 Nov 2026: card 531 still unanswered (day 5), 0 posts up. TikTok Shop 0 orders 7 to 8 Nov. Not re-pushed.
 - Status 9 Nov 2026: card 531 still unanswered (day 6), 0 posts up. TikTok Shop 1 order 8 Nov (S00272, Coffee RM25.90). Not re-pushed.
 - Status 10 Nov 2026: card 531 still unanswered (day 7), 0 posts up. TikTok Shop 0 orders 9 to 10 Nov. Not re-pushed.
+- Status 11 Nov 2026: card 531 still unanswered (day 8), 0 posts up. TikTok Shop 0 orders 10 to 11 Nov. Not re-pushed.
