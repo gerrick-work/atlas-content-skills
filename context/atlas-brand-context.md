@@ -30,7 +30,7 @@ Every skill in this repo assumes these rules. When a skill and this file disagre
 - Social text at least 60 to 100px from every edge (70px on ads). Only the headline bold.
 - Headlines centred on every slide (label above and sub-line under centred too). CTA buttons have fully rounded pill ends; tags and boxes stay rectangles (11 Nov 2026).
 - Imagery as transparent cut-outs unless the photo is the background. Rich context (setting, people, telling objects), never a lone symbol.
-- 1 to 2 simple diagrams in every carousel; never AI-generated diagrams. Logos and illustrations go to an image model via OpenRouter, not hand-drawn by Claude.
+- 1 to 2 simple diagrams in every carousel; never AI-generated diagrams. Icons and small objects come from the 3D icon library (skills/03-static/icon-library), never drawn by Claude (11 Nov 2026). Logos and illustrations go to an image model via OpenRouter, not hand-drawn by Claude.
 - Decks and proposal PDFs: green only for a real call to action, few words per slide.
 
 ## People and AI

@@ -24,6 +24,7 @@ Claude pulls this repo at the start of any content task (via the `atlas-content`
 | **03 Static** | `skills/03-static/ad-library` | Origins static ads by family (search, problems, meme, presenter), with variant fan-out |
 | | `skills/03-static/atlas-origins-post-designs` | Origins B2C carousels (Fact Sheet, Recipe Card, Compare; intro series) |
 | | `skills/03-static/atlas-social-posts` | Atlas DSF posts and carousels (white-first, green gradients) |
+| | `skills/03-static/icon-library` | Free 3D icons (Fluent Emoji 3D, MIT) for every icon or small object; no hand-drawn icons |
 | | `skills/03-static/atlas-glass-grid` | 9-post DSF Instagram grid, frosted-glass style |
 | **04 Video** | `skills/04-video/video-direction` | Shot, camera and lens rules plus `shot.py`: load before ANY AI video generation |
 | | `skills/04-video/ai-ugc-production` | Standard for AI UGC: creator, reason to film, phone behaviour, first 3 seconds, product handling, script, QC rubric |
