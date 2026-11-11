@@ -16,7 +16,7 @@ All Atlas content skills live in one GitHub repo: **gerrick-work/atlas-content-s
 
 ## 2. Route
 
-1. Read `context/atlas-brand-context.md`.
+1. Read `context/atlas-brand-context.md`. For any creative (post, carousel, reel, ad, LinkedIn image) also read `context/creative-tastebook.md` and build from one of its patterns.
 2. If the request is "what's our next move", the morning run, weekly planning or any "what should we do" question, open `skills/00-director/growth-director/SKILL.md` and follow it.
 3. Otherwise read `README.md`, find the job in "The sequence" or "Common jobs", and open that skill's `SKILL.md` with Read.
 4. Follow it exactly, including the skills it hands off to (open each from the repo the same way).

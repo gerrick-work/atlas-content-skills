@@ -33,6 +33,10 @@ Every skill in this repo assumes these rules. When a skill and this file disagre
 - 1 to 2 simple diagrams in every carousel; never AI-generated diagrams. Icons and small objects come from the 3D icon library (skills/03-static/icon-library), never drawn by Claude (11 Nov 2026). Logos and illustrations go to an image model via OpenRouter, not hand-drawn by Claude.
 - Decks and proposal PDFs: green only for a real call to action, few words per slide.
 
+## Creative standard
+
+- Before making any post, carousel, reel, ad or LinkedIn image, read context/creative-tastebook.md and start from one of its patterns. Reference slides: context/tastebook/img/ and https://claude.ai/artifact/HGt2sno2xtueia8cH5JkiH (11 Nov 2026).
+
 ## People and AI
 
 - Never real people, celebrities, creators' faces or other brands' characters. Gerrick's face and voice never appear.
