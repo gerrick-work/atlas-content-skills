@@ -1,5 +1,7 @@
 # Brief: ads test 2, winning chat ad sent to Shopee (drafted 9 Nov 2026, NOT approved)
 
+Superseded 12 Nov 2026: never approved; replaced by 2026-11-12-month1-ad-test-kit.md (Month 1 test from 16 Nov).
+
 Status: draft. Needs Gerrick's yes (spend + destination change). Nothing launched.
 
 Initiative: 1. Paid ads test (Meta)

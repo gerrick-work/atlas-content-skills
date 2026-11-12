@@ -2,6 +2,8 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 12 Nov 2026: Director dropped ads test 2 (never approved after 4 asks) and folded paid ads into the Month 1 plan found in the Odoo Content Calendar (card 551, 16 Nov to 13 Dec). Proposed Discovery Kit on Shopee (A, 3 kit orders in 9 days) vs Iso E Super 3g on Shopee (B), RM20/day, max RM140 a week, read at the Friday review. Awaiting Gerrick. No change made.
+
 - 11 Nov 2026: Meta test 1 closed (all ads Ended, RM64.42, 501 clicks, 0 ad orders). Test 2 (chat ad to Shopee, RM20/day 12 to 18 Nov, max RM140) re-asked as A vs B (ads off until FPX); yes needed today for a 12 Nov start, otherwise start slides a day. Noted chatgpt.com sending real website buyers (S00279 paid). Awaiting Gerrick. No change made.
 - 10 Nov 2026: Director verdict on Meta test 1 (data to 7 Nov, watcher stale 2 days): ad family CHAT_H1_SCREENSHOT kept, website destination failed (0 orders from 267 landing views). Test 2 moved to 12 to 18 Nov (was 10 to 16) so 11.11 stays outside the read; RM20/day, max RM140 unchanged. Re-proposed A vs B (ads off until FPX). Awaiting Gerrick. No change made.
 - 9 Nov 2026: Director verdict on Meta test 1 (to 7 Nov): ads bring cheap clicks (RM0.13, 501 clicks), website converts 0 of 267 landing views. Proposed test 2: winning chat ad sent to the Shopee shop, RM20/day 10 to 16 Nov, max RM140 (A) vs ads off until FPX is on the website (B). Departs from the 3 Nov 'ad links go to the website' rule because the website has not closed a single ad visitor. Awaiting Gerrick. No change made.
