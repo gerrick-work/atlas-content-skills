@@ -2,6 +2,8 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 13 Nov 2026: Director re-asked the Month 1 ad product (Discovery Kit on Shopee A vs Iso E Super 3g B, RM20/day from 16 Nov) a 2nd time ahead of the 14 Nov card 551 deadline; drafted week 1 copy so a yes can turn into a contact sheet by 14 Nov. Awaiting Gerrick. No change made.
+
 - 12 Nov 2026: Director dropped ads test 2 (never approved after 4 asks) and folded paid ads into the Month 1 plan found in the Odoo Content Calendar (card 551, 16 Nov to 13 Dec). Proposed Discovery Kit on Shopee (A, 3 kit orders in 9 days) vs Iso E Super 3g on Shopee (B), RM20/day, max RM140 a week, read at the Friday review. Awaiting Gerrick. No change made.
 
 - 11 Nov 2026: Meta test 1 closed (all ads Ended, RM64.42, 501 clicks, 0 ad orders). Test 2 (chat ad to Shopee, RM20/day 12 to 18 Nov, max RM140) re-asked as A vs B (ads off until FPX); yes needed today for a 12 Nov start, otherwise start slides a day. Noted chatgpt.com sending real website buyers (S00279 paid). Awaiting Gerrick. No change made.
