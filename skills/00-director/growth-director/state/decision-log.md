@@ -2,6 +2,8 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 14 Nov 2026: Director asked the Month 1 ad product a 3rd time on deadline day, reframed as A Discovery Kit on Shopee RM20/day from 16 Nov vs B no paid ads until the 20 Nov review (stop asking). Iso E Super option dropped. Awaiting Gerrick. No change made.
+
 - 13 Nov 2026: Director re-asked the Month 1 ad product (Discovery Kit on Shopee A vs Iso E Super 3g B, RM20/day from 16 Nov) a 2nd time ahead of the 14 Nov card 551 deadline; drafted week 1 copy so a yes can turn into a contact sheet by 14 Nov. Awaiting Gerrick. No change made.
 
 - 12 Nov 2026: Director dropped ads test 2 (never approved after 4 asks) and folded paid ads into the Month 1 plan found in the Odoo Content Calendar (card 551, 16 Nov to 13 Dec). Proposed Discovery Kit on Shopee (A, 3 kit orders in 9 days) vs Iso E Super 3g on Shopee (B), RM20/day, max RM140 a week, read at the Friday review. Awaiting Gerrick. No change made.
