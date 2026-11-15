@@ -2,6 +2,8 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 15 Nov 2026: Month 1 ad product unanswered past the 14 Nov deadline, treated as B (no paid ads until the 20 Nov review, no re-ask). Director made TikTok reel 1 for Mon 16 Nov the next move ("the 4 bases", matching TikTok Shop base-set orders S00299, S00312): A make it and send to his phone, he posts / B no posts until 20 Nov. Awaiting Gerrick. No change made.
+
 - 14 Nov 2026: Director asked the Month 1 ad product a 3rd time on deadline day, reframed as A Discovery Kit on Shopee RM20/day from 16 Nov vs B no paid ads until the 20 Nov review (stop asking). Iso E Super option dropped. Awaiting Gerrick. No change made.
 
 - 13 Nov 2026: Director re-asked the Month 1 ad product (Discovery Kit on Shopee A vs Iso E Super 3g B, RM20/day from 16 Nov) a 2nd time ahead of the 14 Nov card 551 deadline; drafted week 1 copy so a yes can turn into a contact sheet by 14 Nov. Awaiting Gerrick. No change made.
