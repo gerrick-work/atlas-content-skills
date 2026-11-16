@@ -1,6 +1,6 @@
 # Current priorities
 
-Last re-plan: 9 Nov 2026 (Monday). Daily check 15 Nov 2026. Weekly re-plan due Mon 16 Nov.
+Last re-plan: 16 Nov 2026 (Monday). Next weekly re-plan Mon 23 Nov. 30-day and 90-day check Mon 7 Dec (first Monday).
 
 ## 90 days (to early Feb 2027)
 
@@ -18,35 +18,33 @@ Atlas Origins sells every day on all three channels without depending on Shopee'
 - Discovery Kit verdict and Shopee AOV read (initiative 2).
 - Capture: decide how website visitors who don't buy get kept (WhatsApp or email). Parked until initiative 1 shows traffic.
 
-## Last week's read (4 to 8 Nov 2026, re-plan 9 Nov)
+## Last week's read (9 to 15 Nov 2026, re-plan 16 Nov)
 
-- 1 Meta test: RM64.42 spent of RM280, 501 link clicks, 267 landing views, 0 website orders; all 6 ads Paused on the dashboard by 8 Nov (who paused not checked). Verdict: keep the ad family (CHAT_H1_SCREENSHOT), fix the destination. Website: 0 paid ad orders; leaks at details form and payment page (no FPX).
-- 2 Discovery Kit: first kit order 9 Nov (S00274, RM49.90). Ad spend not checked. Keep, read 10 Nov.
-- 3 TikTok: 0 posts, card 531 unanswered 6 days. Blocked on Gerrick, not on work.
+Odoo confirmed orders: Shopee 29, RM1,259.03, AOV RM43.41; TikTok Shop 5, RM328.50, AOV RM65.70; website 1 real paid (S00279 RM30.70), then S00302 RM179.80 paid 16 Nov.
+- 1 Paid ads: no ads ran after test 1 ended 10 Nov; test 2 and Month 1 ads never approved. Kill/hold: hold until 20 Nov review. Website sells without ads: all 3 real paid website orders are organic, 2 from chatgpt.com.
+- 2 Discovery Kit: 3 kit orders in 13 days; Shopee AOV up from ~RM33 to RM43 (11.11 week, discounts funder not checked). Kit ad spend not checked. Decide 17 Nov.
+- 3 TikTok: 0 posts for 2 weeks; still blocked on Gerrick (card 531 day 12). Yet base-set buyers keep coming (TikTok RM160.50, RM115.40; website RM179.80).
+- Pattern of the week: the base set (Hedione, Iso E Super, Ambroxan, Galaxolide, Musk T) is what high-value buyers pick on every channel.
 
-## 7 days (9 to 15 Nov 2026)
+## 7 days (16 to 22 Nov 2026)
 
 | Day | What | Initiative | Skill | Owner |
 |---|---|---|---|---|
-| 10 Nov | Test 1 verdict done; closed 11 Nov (all ads Ended, RM64.42, 0 ad orders): keep CHAT family, change destination | 1 | | Claude |
-| 10 to 11 Nov | Ads test 2 (12 to 18 Nov): never approved, dropped 12 Nov | 1 | | |
-| 12 to 14 Nov | Month 1 ad test (card 551): Discovery Kit on Shopee (A) vs Iso E Super 3g (B), RM20/day from 16 Nov, max RM140 a week (brief 2026-11-12-month1-ad-test-kit.md). Asked 12, 13 and 14 Nov (14 Nov: A kit vs B no ads until 20 Nov review); week 1 copy drafted 13 Nov; contact sheet same day after yes | 1 | atlas-ads-manager, atlas-remix | Gerrick picks, Claude builds |
-| 16 Nov | Content Calendar plan starts: TikTok base reels (564 to 568), affiliate invites (552 needs commission rate). 15 Nov: reel 1 topic proposed, "the 4 bases" (brief 2026-11-15-tiktok-reel1-bases.md); asked A make it and send to his phone by 5pm Mon, he posts 20:30 / B no posts until 20 Nov review | 3 | atlas-script-lab, explainer-reel, tiktok-caption-and-sound | Gerrick yes, Claude makes, Gerrick posts |
-| 10 Nov | Discovery Kit first read (kit orders, ad spend if Gerrick shares a screenshot) | 2 | shopee-ads-advisor | Claude |
-| 11 Nov | Shopee 11.11 (card 532 "Join Shopee 11.11 campaign", status not checked) | 2 | | Gerrick |
-| 20 Nov | First Friday review (card 550) incl. Month 1 ad read | 1 | | Gerrick, Claude |
+| 16 Nov | TikTok reel 1 "the 4 bases" (brief 2026-11-15-tiktok-reel1-bases.md): yes by 2pm, file to his phone by 5pm, he posts 20:30. Script and caption drafted 16 Nov | 3 | atlas-script-lab, explainer-reel, tiktok-caption-and-sound | Gerrick yes, Claude makes, Gerrick posts |
+| 17 to 19 Nov | Reels 2 to 4 (Content Calendar 565 to 567) on the same base-set line, only if reel 1 is approved | 3 | same | Claude, Gerrick posts |
+| 17 Nov | Discovery Kit decide: orders only unless Gerrick sends the kit ad spend; fallback per rule (keep listing, fold ad into GMV Max) | 2 | shopee-ads-advisor | Claude proposes, Gerrick |
+| 20 Nov | Friday review (card 550): Month 1 ads yes/no, base-set signal, chatgpt.com website buyers, TikTok posts shipped | 1, 3 | | Gerrick, Claude |
 | any day | Website FPX online banking (asked 8 Nov) | 1 | | Gerrick |
-| on yes | TikTok first 3 posts (brief 2026-11-06) | 3 | atlas-script-lab, explainer-reel, tiktok-caption-and-sound | Claude, Gerrick approves |
 
-30-day check (9 Nov): winning ad family found (clicks) but not yet tied to sales; TikTok daily posting not started (0 of 4 weeks); Discovery Kit selling; capture still parked. Behind on TikTok and on a proven paid path.
+30-day check (16 Nov, light): ad family found on clicks, still not tied to sales and no ads running; TikTok daily posting 0 of 4 weeks; Discovery Kit selling slowly; capture parked. Website now selling a little on its own (chatgpt.com). Behind on TikTok and on a paid path.
 
-## Open asks with Gerrick (15 Nov 2026)
+## Open asks with Gerrick (16 Nov 2026)
 
-- Chat 15 Nov: TikTok reel 1 for Mon 16 Nov. A: Claude makes it (~US$1), sends to his phone by 5pm, he posts at 20:30 (this also answers card 531 as route B). B: no TikTok posts until the 20 Nov review.
+- Chat 16 Nov (re-ask of 15 Nov): TikTok reel 1 tonight, yes by 2pm. Chat 15 Nov: TikTok reel 1 for Mon 16 Nov. A: Claude makes it (~US$1), sends to his phone by 5pm, he posts at 20:30 (this also answers card 531 as route B). B: no TikTok posts until the 20 Nov review.
 - Month 1 ads (card 551): no answer by the 14 Nov deadline, so treated as B: no paid ads until the 20 Nov review, Director does not re-ask before then. Card 551 still Needs input (not moved: not a Director card).
 - Ads watcher: no update since 11 Nov 8:45am (checked 15 Nov); no ads running.
 - Signal: TikTok Shop buyers buy the base set with no posts (S00299 RM160.50 13 Nov, S00312 RM115.40 15 Nov). Read at 20 Nov review.
-- Signal to read at 20 Nov review: chatgpt.com sent 5 recent real website carts (largest S00302, RM120.10, 13 Nov), 1 paid; carts stop before details.
+- Signal to read at 20 Nov review: chatgpt.com has sent 6 recent real website carts, 2 paid (S00279 RM30.70; S00302 RM179.80 paid 16 Nov after 3 days); new cart S00315 RM74.50 16 Nov.
 - Content Calendar 552 (due 14 Nov): affiliate commission rate needed before 16 Nov (ceiling 25%, no increases).
 - Chat 8 Nov: FPX online banking on website checkout + cart reminder to 2 shoppers (A) vs no change (B). Unanswered.
 - Chat 7 Nov: free delivery over RM35 rejected (stays at RM100).

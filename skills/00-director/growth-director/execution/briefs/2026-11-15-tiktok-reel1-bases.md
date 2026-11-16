@@ -23,3 +23,17 @@ Both are 3 to 4x the TikTok AOV (RM26.50). Reel 1 shows the thing people already
 
 ## Done means
 File on Gerrick's phone by 5pm 16 Nov, then a live link. Read with initiative 3 on 18 Nov (posts shipped, TikTok Shop orders).
+
+## Update 16 Nov 2026 (draft, not generated)
+Third base-set buyer, on the website this time: S00302 (chatgpt.com, RM179.80, paid 16 Nov) bought Hedione, Iso E Super, Musk T, Galaxolide and Ambroxan plus 7 oils. Same 4 hero bases as the script.
+
+Shot list (explainer-reel, 9:16, ~20s, pure white background, A mark + ATLAS ORIGINS lockup top centre on the first frame):
+1. 0 to 2s: 4 clear bottles in a row, text "4 clear liquids behind a lot of expensive perfume."
+2. 2 to 6s: Hedione bottle forward, drop on blotter, text "Hedione: makes everything glow."
+3. 6 to 10s: Iso E Super, text "Iso E Super: the 'what are you wearing' one."
+4. 10 to 14s: Ambroxan, text "Ambroxan: warm skin, but louder."
+5. 14 to 18s: Galaxolide, text "Galaxolide: clean laundry musk that lasts."
+6. 18 to 21s: Smelly beside the 4 bottles, text "Make your own smell. Start with one." + "Tap the shop tab".
+
+Caption draft (tiktok-caption-and-sound to finish): "The 4 bases most of our big orders start with. Which one are you trying first? #perfumetok #diyperfume #perfumery #fyp"
+Sound: a trending low-key beat picked by tiktok-caption-and-sound on the day. AI label on. No prices on screen.
