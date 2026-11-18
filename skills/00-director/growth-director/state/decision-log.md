@@ -2,6 +2,8 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 18 Nov 2026: Shopee shows 0 orders in Odoo for 16 to 18 Nov after ~4 a day. Director made a 2-minute Shopee app check the one move (A: Gerrick checks orders and whether Shopee ads are running, replies in one line / B: wait for the 20 Nov review). Kit decide and reel 1 parked behind it. Awaiting Gerrick. No change made.
+
 - 17 Nov 2026: Discovery Kit decide day. Kit ad spend never received, so Director asked the rule's fallback as A (keep listing, stop the standalone kit ad, GMV Max carries it) vs B (keep the standalone ad to RM100). Reel 1 not answered after 2 asks; held to the 20 Nov review, no re-ask. Awaiting Gerrick. No change made.
 
 - 16 Nov 2026: weekly re-plan. Director kept TikTok reel 1 "the 4 bases" as the one move, now backed by 3 big base-set orders on 2 channels (TikTok S00299 RM160.50, S00312 RM115.40; website S00302 RM179.80 from chatgpt.com, paid 16 Nov). Asked A make it today, he posts 20:30 / B no posts until 20 Nov. Discovery Kit decide 17 Nov will default to the rule's fallback if no ad spend number. Awaiting Gerrick. No change made.
