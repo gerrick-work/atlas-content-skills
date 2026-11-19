@@ -2,6 +2,8 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 19 Nov 2026: Odoo Shopee sync confirmed running (last order sync 19 Nov 09:02) with 0 new Shopee orders since 15 Nov 22:40, so the Shopee drop is real, not a data fault. Director kept restoring Shopee sales as the one move: A Gerrick checks Shopee Ads status and balance and turns them back on within RM26 to 40/day / B wait to 20 Nov. Awaiting Gerrick. No change made.
+
 - 18 Nov 2026: Shopee shows 0 orders in Odoo for 16 to 18 Nov after ~4 a day. Director made a 2-minute Shopee app check the one move (A: Gerrick checks orders and whether Shopee ads are running, replies in one line / B: wait for the 20 Nov review). Kit decide and reel 1 parked behind it. Awaiting Gerrick. No change made.
 
 - 17 Nov 2026: Discovery Kit decide day. Kit ad spend never received, so Director asked the rule's fallback as A (keep listing, stop the standalone kit ad, GMV Max carries it) vs B (keep the standalone ad to RM100). Reel 1 not answered after 2 asks; held to the 20 Nov review, no re-ask. Awaiting Gerrick. No change made.

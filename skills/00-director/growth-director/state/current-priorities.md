@@ -33,14 +33,15 @@ Odoo confirmed orders: Shopee 29, RM1,259.03, AOV RM43.41; TikTok Shop 5, RM328.
 | 16 Nov | TikTok reel 1 "the 4 bases" (brief 2026-11-15-tiktok-reel1-bases.md): yes by 2pm, file to his phone by 5pm, he posts 20:30. Script and caption drafted 16 Nov | 3 | atlas-script-lab, explainer-reel, tiktok-caption-and-sound | Gerrick yes, Claude makes, Gerrick posts |
 | 17 to 19 Nov | Reels 2 to 4 (Content Calendar 565 to 567) on the same base-set line, only if reel 1 is approved. Reel 1 unanswered (17 Nov), held to 20 Nov | 3 | same | Claude, Gerrick posts |
 | 17 Nov | Discovery Kit decide: asked 17 Nov, A keep listing + stop standalone kit ad (fallback) / B keep ad to RM100. Awaiting | 2 | shopee-ads-advisor | Claude proposes, Gerrick |
-| 18 Nov | Shopee 0 orders 16 to 18 Nov in Odoo: Gerrick checks the Shopee app (orders today? ads running?) and replies in one line. Asked 18 Nov | 2 | | Gerrick, 2 min |
+| 18 Nov | Shopee 0 orders 16 to 18 Nov in Odoo: Gerrick checks the Shopee app (orders today? ads running?) and replies in one line. Asked 18 Nov. 19 Nov: Odoo sync proven working, so the drop is real; re-asked as check Shopee Ads and turn back on (RM26 to 40/day) | 2 | shopee-ads-advisor | Gerrick, 5 min |
 | 20 Nov | Friday review (card 550): Month 1 ads yes/no, base-set signal, chatgpt.com website buyers, TikTok posts shipped, Shopee 0-order day 16 Nov, Dried Roses bulk buyer (S00319) | 1, 2, 3 | | Gerrick, Claude |
 | any day | Website FPX online banking (asked 8 Nov) | 1 | | Gerrick |
 
 30-day check (16 Nov, light): ad family found on clicks, still not tied to sales and no ads running; TikTok daily posting 0 of 4 weeks; Discovery Kit selling slowly; capture parked. Website now selling a little on its own (chatgpt.com). Behind on TikTok and on a paid path.
 
-## Open asks with Gerrick (18 Nov 2026)
+## Open asks with Gerrick (19 Nov 2026)
 
+- Chat 19 Nov (re-ask of 18 Nov, sharper): Shopee 0 orders since 15 Nov 22:40 while Odoo's Shopee sync runs fine (last 09:02 19 Nov). A: check Shopee Ads status and balance, turn back on within RM26 to 40/day / B: wait to 20 Nov. Website 0 carts 17 to 19 Nov too (site is up).
 - Chat 18 Nov: Shopee 0 orders in Odoo 16 to 18 Nov (last S00314, 15 Nov). A: check the Shopee app now (orders? ads on and funded?) / B: wait to 20 Nov. Then the Director fixes the ads side or flags an Odoo sync fault. Website also had 0 new carts 17 Nov; TikTok 0 orders since 15 Nov.
 
 - Chat 17 Nov: Discovery Kit. A: keep listing, stop the standalone kit ad, GMV Max carries it. B: keep the standalone ad to the RM100 cap. Or send the kit ad spend and the ROAS rule decides.
@@ -48,7 +49,7 @@ Odoo confirmed orders: Shopee 29, RM1,259.03, AOV RM43.41; TikTok Shop 5, RM328.
 
 - Chat 16 Nov (re-ask of 15 Nov): TikTok reel 1 tonight, yes by 2pm. Chat 15 Nov: TikTok reel 1 for Mon 16 Nov. A: Claude makes it (~US$1), sends to his phone by 5pm, he posts at 20:30 (this also answers card 531 as route B). B: no TikTok posts until the 20 Nov review.
 - Month 1 ads (card 551): no answer by the 14 Nov deadline, so treated as B: no paid ads until the 20 Nov review, Director does not re-ask before then. Card 551 still Needs input (not moved: not a Director card).
-- Ads watcher: no update since 11 Nov 8:45am (checked 18 Nov); no ads running.
+- Ads watcher: no update since 11 Nov 8:45am (checked 19 Nov); no ads running.
 - Signal: TikTok Shop buyers buy the base set with no posts (S00299 RM160.50 13 Nov, S00312 RM115.40 15 Nov). Read at 20 Nov review.
 - Signal to read at 20 Nov review: chatgpt.com has sent 6 recent real website carts, 2 paid (S00279 RM30.70; S00302 RM179.80 paid 16 Nov after 3 days); new cart S00315 RM74.50 16 Nov.
 - Content Calendar 552 (due 14 Nov): affiliate commission rate needed before 16 Nov (ceiling 25%, no increases).
