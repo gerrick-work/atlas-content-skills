@@ -34,13 +34,18 @@ Odoo confirmed orders: Shopee 29, RM1,259.03, AOV RM43.41; TikTok Shop 5, RM328.
 | 17 to 19 Nov | Reels 2 to 4 (Content Calendar 565 to 567) on the same base-set line, only if reel 1 is approved. Reel 1 unanswered (17 Nov), held to 20 Nov | 3 | same | Claude, Gerrick posts |
 | 17 Nov | Discovery Kit decide: asked 17 Nov, A keep listing + stop standalone kit ad (fallback) / B keep ad to RM100. Awaiting | 2 | shopee-ads-advisor | Claude proposes, Gerrick |
 | 18 Nov | Shopee 0 orders 16 to 18 Nov in Odoo: Gerrick checks the Shopee app (orders today? ads running?) and replies in one line. Asked 18 Nov. 19 Nov: Odoo sync proven working, so the drop is real; re-asked as check Shopee Ads and turn back on (RM26 to 40/day) | 2 | shopee-ads-advisor | Gerrick, 5 min |
-| 20 Nov | Friday review (card 550): Month 1 ads yes/no, base-set signal, chatgpt.com website buyers, TikTok posts shipped, Shopee 0-order day 16 Nov, Dried Roses bulk buyer (S00319) | 1, 2, 3 | | Gerrick, Claude |
+| 20 Nov | Friday review done by the Director (see read below); Shopee restart re-asked with the new Meta kit ad. Was: Friday review (card 550): Month 1 ads yes/no, base-set signal, chatgpt.com website buyers, TikTok posts shipped, Shopee 0-order day 16 Nov, Dried Roses bulk buyer (S00319) | 1, 2, 3 | | Gerrick, Claude |
 | any day | Website FPX online banking (asked 8 Nov) | 1 | | Gerrick |
 
 30-day check (16 Nov, light): ad family found on clicks, still not tied to sales and no ads running; TikTok daily posting 0 of 4 weeks; Discovery Kit selling slowly; capture parked. Website now selling a little on its own (chatgpt.com). Behind on TikTok and on a paid path.
 
-## Open asks with Gerrick (19 Nov 2026)
+## Friday review read (20 Nov 2026)
 
+Odoo 16 to 20 Nov: Shopee 0 orders (since 15 Nov 22:40), TikTok Shop 0 (since 15 Nov), website 1 paid (S00302 RM179.80, 16 Nov, chatgpt.com), direct 1 (S00319 RM419.58 bulk Dried Roses/Vetiver). New: Meta kit_problem_m1 website ad live since ~19 Nov (2 kit carts RM139.80, 0 paid, spend not checked). Constraint: Shopee has stopped selling (likely Shopee ads off). Card 550 review topics not answered in chat.
+
+## Open asks with Gerrick (20 Nov 2026)
+
+- Chat 20 Nov (3rd ask on Shopee): A turn Shopee Ads back on today (RM26 to 40/day) and send the Meta kit ad's daily budget (keep to day 7 if RM40/day or less, stop at RM31 with 0 orders) / B pause the Meta kit ad, move that money to Shopee ads.
 - Chat 19 Nov (re-ask of 18 Nov, sharper): Shopee 0 orders since 15 Nov 22:40 while Odoo's Shopee sync runs fine (last 09:02 19 Nov). A: check Shopee Ads status and balance, turn back on within RM26 to 40/day / B: wait to 20 Nov. Website 0 carts 17 to 19 Nov too (site is up).
 - Chat 18 Nov: Shopee 0 orders in Odoo 16 to 18 Nov (last S00314, 15 Nov). A: check the Shopee app now (orders? ads on and funded?) / B: wait to 20 Nov. Then the Director fixes the ads side or flags an Odoo sync fault. Website also had 0 new carts 17 Nov; TikTok 0 orders since 15 Nov.
 

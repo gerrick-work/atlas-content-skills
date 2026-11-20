@@ -2,6 +2,8 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 20 Nov 2026: Friday review. Found a Meta website campaign kit_problem_m1 (Discovery Kit, live since ~19 Nov, 2 carts, 0 paid) not launched from a Director brief and not tracked by the ads watcher. Director kept restoring Shopee as the one move: A Gerrick turns Shopee Ads back on (RM26 to 40/day) and sends the kit ad's daily budget so it can be watched to day 7 if RM40/day or less / B pause the kit ad and move its money to Shopee. Awaiting Gerrick. No change made in any ad account.
+
 - 19 Nov 2026: Odoo Shopee sync confirmed running (last order sync 19 Nov 09:02) with 0 new Shopee orders since 15 Nov 22:40, so the Shopee drop is real, not a data fault. Director kept restoring Shopee sales as the one move: A Gerrick checks Shopee Ads status and balance and turns them back on within RM26 to 40/day / B wait to 20 Nov. Awaiting Gerrick. No change made.
 
 - 18 Nov 2026: Shopee shows 0 orders in Odoo for 16 to 18 Nov after ~4 a day. Director made a 2-minute Shopee app check the one move (A: Gerrick checks orders and whether Shopee ads are running, replies in one line / B: wait for the 20 Nov review). Kit decide and reel 1 parked behind it. Awaiting Gerrick. No change made.
