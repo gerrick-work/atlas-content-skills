@@ -43,7 +43,9 @@ Odoo confirmed orders: Shopee 29, RM1,259.03, AOV RM43.41; TikTok Shop 5, RM328.
 
 Odoo 16 to 20 Nov: Shopee 0 orders (since 15 Nov 22:40), TikTok Shop 0 (since 15 Nov), website 1 paid (S00302 RM179.80, 16 Nov, chatgpt.com), direct 1 (S00319 RM419.58 bulk Dried Roses/Vetiver). New: Meta kit_problem_m1 website ad live since ~19 Nov (2 kit carts RM139.80, 0 paid, spend not checked). Constraint: Shopee has stopped selling (likely Shopee ads off). Card 550 review topics not answered in chat.
 
-## Open asks with Gerrick (20 Nov 2026)
+## Open asks with Gerrick (21 Nov 2026)
+
+- Chat + CEO Desk card 583 (21 Nov, 4th ask on Shopee, reframed): 0 orders since 15 Nov even from organic, so check Seller Centre: vacation mode, account health/penalties, ads on and funded. A Gerrick checks and replies / B gives Claude access in a desktop-linked session.
 
 - Chat 20 Nov (3rd ask on Shopee): A turn Shopee Ads back on today (RM26 to 40/day) and send the Meta kit ad's daily budget (keep to day 7 if RM40/day or less, stop at RM31 with 0 orders) / B pause the Meta kit ad, move that money to Shopee ads.
 - Chat 19 Nov (re-ask of 18 Nov, sharper): Shopee 0 orders since 15 Nov 22:40 while Odoo's Shopee sync runs fine (last 09:02 19 Nov). A: check Shopee Ads status and balance, turn back on within RM26 to 40/day / B: wait to 20 Nov. Website 0 carts 17 to 19 Nov too (site is up).
@@ -61,7 +63,7 @@ Odoo 16 to 20 Nov: Shopee 0 orders (since 15 Nov 22:40), TikTok Shop 0 (since 15
 - Chat 8 Nov: FPX online banking on website checkout + cart reminder to 2 shoppers (A) vs no change (B). Unanswered.
 - Chat 7 Nov: free delivery over RM35 rejected (stays at RM100).
 - CEO Desk 531 / chat 6 Nov: TikTok posting route. Unanswered day 9. Blocks initiative 3.
-- CEO Desk 532: Join Shopee 11.11 campaign (Do now since 4 Nov). Status not checked.
+- CEO Desk 532: Join Shopee 11.11 campaign. Moved to Done 21 Nov (11.11 has passed).
 - CEO Desk 533: Shopee ads cap 15%. Unanswered.
 - Ops items for Gerrick (not asked yet as cards): Agarwood 3g listed on the website but can't be bought; WELCOME5 box hidden behind the sticky checkout bar on phones.
-- CEO Desk holds 9 Director-tagged cards (531 to 543), none moved since 4 Nov (checked 11 Nov); no new card added.
+- CEO Desk Director-tagged cards (21 Nov): 531, 533 to 537, 540, 543 open and untouched since 4 Nov, plus new 583. Over the cap of 3; old cards need a cleanup pass.
