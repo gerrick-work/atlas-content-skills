@@ -35,6 +35,7 @@ Odoo confirmed orders: Shopee 29, RM1,259.03, AOV RM43.41; TikTok Shop 5, RM328.
 | 17 Nov | Discovery Kit decide: asked 17 Nov, A keep listing + stop standalone kit ad (fallback) / B keep ad to RM100. Awaiting | 2 | shopee-ads-advisor | Claude proposes, Gerrick |
 | 18 Nov | Shopee 0 orders 16 to 18 Nov in Odoo: Gerrick checks the Shopee app (orders today? ads running?) and replies in one line. Asked 18 Nov. 19 Nov: Odoo sync proven working, so the drop is real; re-asked as check Shopee Ads and turn back on (RM26 to 40/day) | 2 | shopee-ads-advisor | Gerrick, 5 min |
 | 20 Nov | Friday review done by the Director (see read below); Shopee restart re-asked with the new Meta kit ad. Was: Friday review (card 550): Month 1 ads yes/no, base-set signal, chatgpt.com website buyers, TikTok posts shipped, Shopee 0-order day 16 Nov, Dried Roses bulk buyer (S00319) | 1, 2, 3 | | Gerrick, Claude |
+| 24 Nov | Restart after shipping break (if confirmed): Shopee vacation off, Shopee ads on, kit ad back, kit default Starter | 1, 2 | shopee-ads-advisor | Gerrick yes, Claude preps |
 | any day | Website FPX online banking (asked 8 Nov) | 1 | | Gerrick |
 
 30-day check (16 Nov, light): ad family found on clicks, still not tied to sales and no ads running; TikTok daily posting 0 of 4 weeks; Discovery Kit selling slowly; capture parked. Website now selling a little on its own (chatgpt.com). Behind on TikTok and on a paid path.
@@ -43,7 +44,10 @@ Odoo confirmed orders: Shopee 29, RM1,259.03, AOV RM43.41; TikTok Shop 5, RM328.
 
 Odoo 16 to 20 Nov: Shopee 0 orders (since 15 Nov 22:40), TikTok Shop 0 (since 15 Nov), website 1 paid (S00302 RM179.80, 16 Nov, chatgpt.com), direct 1 (S00319 RM419.58 bulk Dried Roses/Vetiver). New: Meta kit_problem_m1 website ad live since ~19 Nov (2 kit carts RM139.80, 0 paid, spend not checked). Constraint: Shopee has stopped selling (likely Shopee ads off). Card 550 review topics not answered in chat.
 
-## Open asks with Gerrick (21 Nov 2026)
+## Open asks with Gerrick (22 Nov 2026)
+
+- Chat 22 Nov: website says shipping resumes 24 Nov. Is it a planned break? A pause the Meta kit ad to 24 Nov, Director preps a 24 Nov restart (Shopee vacation off, Shopee ads on, kit ad back with Starter default, 'Ships in 24h' line fixed) / B keep the kit ad running. Supersedes the Shopee asks of 18 to 21 Nov if it is a break.
+- Found 22 Nov: kit page defaults to 'Oils only' RM40.90 (no bottle or alcohol); all 6 ad carts picked it; page says 'fragrance oils' and 'Ships in 24h' during the break.
 
 - Chat + CEO Desk card 583 (21 Nov, 4th ask on Shopee, reframed): 0 orders since 15 Nov even from organic, so check Seller Centre: vacation mode, account health/penalties, ads on and funded. A Gerrick checks and replies / B gives Claude access in a desktop-linked session.
 

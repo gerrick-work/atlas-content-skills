@@ -2,6 +2,8 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 22 Nov 2026: Website banner found: 'shipping resumes 24 Nov'. Director now reads the 6.5-day Shopee and TikTok stall as a likely planned shipping break, not a fault. Asked: A pause the Meta kit ad until 24 Nov and restart everything 24 Nov morning (Shopee vacation off, Shopee ads on RM26 to 40/day, kit ad back with Starter as default) / B keep the kit ad running through the break. Awaiting Gerrick. No change made.
+
 - 21 Nov 2026: Director reframed the Shopee stall (0 orders since 15 Nov, ~5.5 days) as a likely shop-wide block, since organic sales stopped too; asked a 3-point Seller Centre check (A Gerrick / B Claude with access) and put it on CEO Desk card 583. Moved card 532 (11.11) to Done. Awaiting Gerrick. No spend.
 
 - 20 Nov 2026: Friday review. Found a Meta website campaign kit_problem_m1 (Discovery Kit, live since ~19 Nov, 2 carts, 0 paid) not launched from a Director brief and not tracked by the ads watcher. Director kept restoring Shopee as the one move: A Gerrick turns Shopee Ads back on (RM26 to 40/day) and sends the kit ad's daily budget so it can be watched to day 7 if RM40/day or less / B pause the kit ad and move its money to Shopee. Awaiting Gerrick. No change made in any ad account.
