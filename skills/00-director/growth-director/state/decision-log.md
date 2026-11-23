@@ -2,6 +2,8 @@
 
 Newest first. One line each: date, decision, who, why (if given). Never delete; mark reversals.
 
+- 23 Nov 2026: Monday re-plan. Week 16 to 22 Nov: Shopee 0, TikTok Shop 0, website 1 paid (RM179.80), direct 1 (RM419.58); likely a planned shipping break to 24 Nov (not confirmed). Director made a 24 Nov all-channel restart the one move, with a 10-min checklist brief: A Gerrick does it tomorrow morning / B shipping does not resume 24 Nov, reply with the date. Moved stale Director cards 540 and 543 to Done. Awaiting Gerrick. No spend.
+
 - 22 Nov 2026: Website banner found: 'shipping resumes 24 Nov'. Director now reads the 6.5-day Shopee and TikTok stall as a likely planned shipping break, not a fault. Asked: A pause the Meta kit ad until 24 Nov and restart everything 24 Nov morning (Shopee vacation off, Shopee ads on RM26 to 40/day, kit ad back with Starter as default) / B keep the kit ad running through the break. Awaiting Gerrick. No change made.
 
 - 21 Nov 2026: Director reframed the Shopee stall (0 orders since 15 Nov, ~5.5 days) as a likely shop-wide block, since organic sales stopped too; asked a 3-point Seller Centre check (A Gerrick / B Claude with access) and put it on CEO Desk card 583. Moved card 532 (11.11) to Done. Awaiting Gerrick. No spend.

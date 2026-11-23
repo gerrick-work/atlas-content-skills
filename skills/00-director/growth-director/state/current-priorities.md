@@ -1,6 +1,6 @@
 # Current priorities
 
-Last re-plan: 16 Nov 2026 (Monday). Next weekly re-plan Mon 23 Nov. 30-day and 90-day check Mon 7 Dec (first Monday).
+Last re-plan: 23 Nov 2026 (Monday). Next weekly re-plan Mon 30 Nov. 30-day and 90-day check Mon 7 Dec (first Monday).
 
 ## 90 days (to early Feb 2027)
 
@@ -18,25 +18,27 @@ Atlas Origins sells every day on all three channels without depending on Shopee'
 - Discovery Kit verdict and Shopee AOV read (initiative 2).
 - Capture: decide how website visitors who don't buy get kept (WhatsApp or email). Parked until initiative 1 shows traffic.
 
-## Last week's read (9 to 15 Nov 2026, re-plan 16 Nov)
+## Last week's read (16 to 22 Nov 2026, re-plan 23 Nov)
 
-Odoo confirmed orders: Shopee 29, RM1,259.03, AOV RM43.41; TikTok Shop 5, RM328.50, AOV RM65.70; website 1 real paid (S00279 RM30.70), then S00302 RM179.80 paid 16 Nov.
-- 1 Paid ads: no ads ran after test 1 ended 10 Nov; test 2 and Month 1 ads never approved. Kill/hold: hold until 20 Nov review. Website sells without ads: all 3 real paid website orders are organic, 2 from chatgpt.com.
-- 2 Discovery Kit: 3 kit orders in 13 days; Shopee AOV up from ~RM33 to RM43 (11.11 week, discounts funder not checked). Kit ad spend not checked. Decide 17 Nov.
-- 3 TikTok: 0 posts for 2 weeks; still blocked on Gerrick (card 531 day 12). Yet base-set buyers keep coming (TikTok RM160.50, RM115.40; website RM179.80).
-- Pattern of the week: the base set (Hedione, Iso E Super, Ambroxan, Galaxolide, Musk T) is what high-value buyers pick on every channel.
+Odoo confirmed orders: Shopee 0 (last S00314, 15 Nov 22:40), TikTok Shop 0 (last S00312, 15 Nov), website 1 paid (S00302 RM179.80, 16 Nov, chatgpt.com), direct 1 (S00319 RM419.58 bulk Dried Roses). Week before: Shopee 29 orders RM1,259.
+- Likeliest cause: planned shipping break to 24 Nov (website banner), so Shopee vacation mode. Not confirmed by Gerrick; Shopee not checked.
+- 1 Paid ads: untracked Meta kit_problem_m1 website ad since ~19 Nov, 6 kit carts RM304.30, 0 paid, all picked the 'Oils only' default. No new kit ad cart since 21 Nov (paused or not: not checked). Spend not checked; ads watcher dashboard last updated 11 Nov.
+- 2 Discovery Kit: decide still parked (no answer since 17 Nov).
+- 3 TikTok: 0 posts known for 3 weeks; card 531 unanswered day 19.
+- chatgpt.com keeps sending website carts with no work from us (S00328 RM51.80, 22 Nov, unpaid).
+- Pattern: Gerrick has answered none of the Director's asks since about 7 Nov. Asks stay to one per day, one tap.
 
-## 7 days (16 to 22 Nov 2026)
+## 7 days (23 to 29 Nov 2026)
 
 | Day | What | Initiative | Skill | Owner |
 |---|---|---|---|---|
-| 16 Nov | TikTok reel 1 "the 4 bases" (brief 2026-11-15-tiktok-reel1-bases.md): yes by 2pm, file to his phone by 5pm, he posts 20:30. Script and caption drafted 16 Nov | 3 | atlas-script-lab, explainer-reel, tiktok-caption-and-sound | Gerrick yes, Claude makes, Gerrick posts |
-| 17 to 19 Nov | Reels 2 to 4 (Content Calendar 565 to 567) on the same base-set line, only if reel 1 is approved. Reel 1 unanswered (17 Nov), held to 20 Nov | 3 | same | Claude, Gerrick posts |
-| 17 Nov | Discovery Kit decide: asked 17 Nov, A keep listing + stop standalone kit ad (fallback) / B keep ad to RM100. Awaiting | 2 | shopee-ads-advisor | Claude proposes, Gerrick |
-| 18 Nov | Shopee 0 orders 16 to 18 Nov in Odoo: Gerrick checks the Shopee app (orders today? ads running?) and replies in one line. Asked 18 Nov. 19 Nov: Odoo sync proven working, so the drop is real; re-asked as check Shopee Ads and turn back on (RM26 to 40/day) | 2 | shopee-ads-advisor | Gerrick, 5 min |
-| 20 Nov | Friday review done by the Director (see read below); Shopee restart re-asked with the new Meta kit ad. Was: Friday review (card 550): Month 1 ads yes/no, base-set signal, chatgpt.com website buyers, TikTok posts shipped, Shopee 0-order day 16 Nov, Dried Roses bulk buyer (S00319) | 1, 2, 3 | | Gerrick, Claude |
-| 24 Nov | Restart after shipping break (if confirmed): Shopee vacation off, Shopee ads on, kit ad back, kit default Starter | 1, 2 | shopee-ads-advisor | Gerrick yes, Claude preps |
-| any day | Website FPX online banking (asked 8 Nov) | 1 | | Gerrick |
+| 23 Nov | Ask once: restart all channels 24 Nov morning with the 10-min checklist (brief 2026-11-24-restart-after-break.md) | 1, 2 | shopee-ads-advisor | Gerrick yes, Director prepped |
+| 24 Nov | Restart: Shopee vacation off, account health check, Shopee ads on RM26 to 40/day, kit page default Starter, kit ad on with budget sent | 1, 2 | shopee-ads-advisor, atlas-ads-manager | Gerrick, 10 min |
+| 25 Nov | Read the restart in Odoo: 2+ Shopee orders dated 24 Nov = break confirmed; 0 = real Seller Centre problem, re-diagnose | 2 | | Director |
+| 26 to 27 Nov | Only if Shopee is back: TikTok reel 1 "the 4 bases" re-offered (brief 2026-11-15) | 3 | explainer-reel | Claude makes, Gerrick posts |
+| 27 Nov | Friday read: kit ad day 7 rule (RM31 with 0 orders stops it), kit decide closes on the rule fallback if still no spend number | 1, 2 | | Director |
+
+30-day check (23 Nov, light): nothing moved toward the 4 Dec goals this week (channels paused for the break). With 11 days left, the realistic 30-day win is a clean restart plus a first read on the kit ad; the TikTok daily-posting goal will be missed.
 
 30-day check (16 Nov, light): ad family found on clicks, still not tied to sales and no ads running; TikTok daily posting 0 of 4 weeks; Discovery Kit selling slowly; capture parked. Website now selling a little on its own (chatgpt.com). Behind on TikTok and on a paid path.
 
@@ -44,7 +46,10 @@ Odoo confirmed orders: Shopee 29, RM1,259.03, AOV RM43.41; TikTok Shop 5, RM328.
 
 Odoo 16 to 20 Nov: Shopee 0 orders (since 15 Nov 22:40), TikTok Shop 0 (since 15 Nov), website 1 paid (S00302 RM179.80, 16 Nov, chatgpt.com), direct 1 (S00319 RM419.58 bulk Dried Roses/Vetiver). New: Meta kit_problem_m1 website ad live since ~19 Nov (2 kit carts RM139.80, 0 paid, spend not checked). Constraint: Shopee has stopped selling (likely Shopee ads off). Card 550 review topics not answered in chat.
 
-## Open asks with Gerrick (22 Nov 2026)
+## Open asks with Gerrick (23 Nov 2026)
+
+- Chat 23 Nov (Monday re-plan, replaces the 22 Nov ask): restart tomorrow 24 Nov. A Gerrick does the 10-min checklist in the morning (vacation off, health check, Shopee ads on RM26 to 40/day, kit default Starter, kit ad on + budget) / B shipping does not resume 24 Nov, reply with the date. CEO Desk card 583 updated.
+- Card cleanup 23 Nov: 540 Shopee numbers and 543 TikTok numbers moved to Done (Odoo now gives the numbers). Director cards open: 531, 533 to 537, 583.
 
 - Chat 22 Nov: website says shipping resumes 24 Nov. Is it a planned break? A pause the Meta kit ad to 24 Nov, Director preps a 24 Nov restart (Shopee vacation off, Shopee ads on, kit ad back with Starter default, 'Ships in 24h' line fixed) / B keep the kit ad running. Supersedes the Shopee asks of 18 to 21 Nov if it is a break.
 - Found 22 Nov: kit page defaults to 'Oils only' RM40.90 (no bottle or alcohol); all 6 ad carts picked it; page says 'fragrance oils' and 'Ships in 24h' during the break.
